@@ -1,0 +1,193 @@
+@media (max-width: 575.98px) {
+  .top_bar {
+    text-align: center;
+  }
+  .top_bar .contact {
+    margin-bottom: 20px;
+  }
+  .top_bar_new {
+    text-align: center;
+  }
+  .top_bar_new .contact {
+    margin-bottom: 20px;
+  }
+  header {
+    padding: 10px 0 150px 0;
+  }
+  header .contain {
+    text-align: center;
+  }
+
+  header .contain .desc h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  header .contain .desc p {
+    font-size: 14px;
+  }
+
+  footer {
+    background-size: cover;
+  }
+
+  header .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .header_new .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  header .navbar .nav-item .nav-link.active::after {
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  /* .desc-t .desc h2 p {
+    text-align: center;
+  } */
+}
+@media (max-width: 767.98px) {
+  .top_bar {
+    text-align: center;
+  }
+  .top_bar .contact {
+    margin-bottom: 20px;
+  }
+  .top_bar_new {
+    text-align: center;
+  }
+  .top_bar_new .contact {
+    margin-bottom: 20px;
+  }
+  footer {
+    background-size: cover;
+  }
+
+  header {
+    padding: 10px 0 150px 0;
+  }
+  header .contain {
+    text-align: center;
+  }
+
+  header .contain .desc h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  header .contain .desc p {
+    font-size: 14px;
+  }
+  header .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .header_new .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  header .navbar .nav-item .nav-link.active::after {
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+}
+@media (max-width: 991.98px) {
+  footer {
+    background-size: cover;
+  }
+  header {
+    padding: 10px 0 150px 0;
+  }
+  header .contain {
+    text-align: center;
+  }
+
+  header .contain .desc h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  header .contain .desc p {
+    font-size: 14px;
+  }
+
+  header .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .header_new .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  header .navbar .nav-item .nav-link.active::after {
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  header .navbar-brand {
+    width: 200px;
+  }
+  .navbar {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1199.98px) {
+  footer {
+    background-size: cover;
+  }
+  header {
+    padding: 10px 0 150px 0;
+  }
+  header .contain {
+    text-align: center;
+  }
+
+  header .contain .desc h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  header .contain .desc p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1399.98px) {
+  footer {
+    background-size: cover;
+  }
+  header {
+    padding: 10px 0 150px 0;
+  }
+  header .contain {
+    text-align: center;
+  }
+
+  header .contain .desc h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  header .contain .desc p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1400px) {
+  header {
+    padding: 10px 0 150px 0;
+  }
+
+  header .contain .desc h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  header .contain .desc p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .desc-t .desc {
+    text-align: center;
+  }
+  .video-w {
+    height: 50vh;
+  }
+}

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-Menu / Price plan</title>
+  <title>E-Menu / Register</title>
   <!-- Bootstrap Css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css"
     integrity="sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl" crossorigin="anonymous">
@@ -114,135 +114,95 @@
     </div>
   </section>
 
-  <!-- End Steps Registers -->
+
   <!-- Start Planing Price -->
-  <section class="planing_price-pp text-center">
-    <div class="title">
-      <span>Price PLan</span>
-      <h6>خطط الأسعار</h6>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 ">
-          <div class="plan one">
-            <h4>الباقة الاولي</h4>
-            <div class="price">
-              <span>$99</span>
-            </div>
-            <ul class="list-unstyled">
-              <li>الميزة الأولي</li>
-              <li>الميزة الثانية</li>
-              <li>الميزة الثالثة</li>
-            </ul>
-            <a class="conntect_now" href="#">أشترك الأن</a>
+  <section id="payment">
+    <div class="contanier">
+      <div class="row m-0 justify-content-evenly pt-5 pb-5">
+        <div class="col-lg-4 col-md-6 col-sm-12  first-one">
+          <h4>ملخص الطلب</h4>
+          <hr>
+          <p>كود الطلب : M20E56</p>
+          <div class="first-card d-flex justify-content-between">
+            <p>
+              الباقة المميزة
+            </p>
+            <p class="price">$30</p>
           </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="plan two">
-            <h4>الباقة الثانية</h4>
-            <div class="price">
-              <span>$49</span>
-            </div>
-            <ul class="list-unstyled">
-              <li>الميزة الأولي</li>
-              <li>الميزة الثانية</li>
-              <li>الميزة الثالثة</li>
-            </ul>
-            <a class="conntect_now" href="#">أشترك الأن</a>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="plan three">
-            <h4>الباقة الثالثة</h4>
-            <div class="price">
-              <span>$30</span>
-            </div>
-            <ul class="list-unstyled">
-              <li>الميزة الأولي</li>
-              <li>الميزة الثانية</li>
-              <li>الميزة الثالثة</li>
-            </ul>
-            <a class="conntect_now" href="#">أشترك الأن</a>
-          </div>
-        </div>
-        <!-- </div> -->
-        <div class="col-12 text-end">
-          <button class="btn btn-primary" type="submit" class="next"> التالي</button>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- End Planing Price -->
-
-
-  <!-- </div> -->
-
-  </section>
-  <!-- End Page Content -->
-
-  <!---->
-  <section class="content-q">
-    <div class="container form-box">
-      <div class="row text-center">
-        <div class="col-md-8 m-auto">
+          <hr>
           <form>
-            <div class="mb-3 text-center">
-              <label class="text-pp mb-3">
-                <img src="images/question-mark.svg" width="50">
-                <h6>
-                  أهمّ الأسئلة الشائعة
-                </h6>
-              </label>
-              <div class="myselect">
-
-                <select class="form-select-p form-select-lg mb-3">
-
-                  <option>ما المقصود بخطة الدفع؟</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+            <div class="all d-flex justify-content-around">
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                <label class="custom-control-label" for="customRadio">هل لديك كود خصم ؟</label>
               </div>
-            </div>
-            <div class="mb-3 text-center">
-              <div class="myselect">
-                <select class="form-select-p form-select-lg mb-3">
-                  <option>كيف يمكننى الشراء والدفع؟</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-            <div class="mb-3 text-center">
-              <div class="myselect">
-                <select class="form-select-p form-select-lg mb-3">
-                  <option>كيف يمكنني تغيير الباقة؟</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-            <div class="mb-3">
-              <div class="myselect">
-                <select class="form-select-p form-select-lg mb-3">
-                  <option>ما هي وسائل الدفع المتاحة ؟</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
+              <input type="text" id="fname" name="fname">
             </div>
           </form>
-        </div>
+          <hr>
+          <div class="first-card d-flex justify-content-between">
 
+            <p>
+              الضرائب والرسوم
+            </p>
+            <p class="loan">9.3$</p>
+          </div>
+          <hr>
+          <div class="first-card d-flex justify-content-between mb-5">
+            <p class="price">
+              المجموع
+            </p>
+            <p class="price">39.3$</p>
+          </div>
+          <label class="text-pp mb-2 d-flex">
+            <div class="face mt-2">
+              <img src="./images/surface1.png" width="29">
+            </div>
+            <p class="security">
+              سنقوم بمعالجة بياناتك الشخصية لتحقيك طلبك<br>
+              ولاغراض اخري وفقا ل سياسية الخصوصية . هذا الموقع محمي <br>
+              بواسطة reCAPTHA <br>
+              سياسة الخصوصية وشروط الخدمة الخاصة ب Google مطبقة
+            </p>
+          </label>
+        </div>
+        <!--SECONT-->
+        <div class="col-lg-4 col-md-6 col-sm-12 second-one">
+          <div class="text-center pt-5">
+            <img src="./images/Group 153.png" width="140">
+          </div>
+          <h3 class="text-center mt-5">اختر طريقة الدفع</h3>
+          <hr>
+          <div class="pay mt-3">
+            <form>
+              <div class="custom-control custom-radio ">
+                <label class="postion">
+                  <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                  <img src="./images/Stc-logo.png" width="50" class="cr-img"></label>
+              </div>
+
+              <div class="custom-control custom-radio ">
+                <label class="postion">
+                  <input type="radio" class="custom-control-input " id="customRadio" name="example1" value="customEx ">
+                  <img src="./images/v.png" width="50" class="cr-img">
+                  <img src="./images/mc.png" width="50" class="visa-img">
+                </label>
+              </div>
+
+              <div class="custom-control custom-radio">
+                <label class="postion">
+                  <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                  <img src="./images/ic_account_balance_24px.png" width="20" class=" cr-img">
+                  <span> التحويل البنكى</span>
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+
 
   <!-- Start Footer -->
   <footer>

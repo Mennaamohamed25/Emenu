@@ -221,6 +221,39 @@ header .contain .btns .learn_more:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.accordion .accordion-item {
+  margin-bottom: 10px;
+}
+.accordion .accordion-button {
+  background-color: var(--white-color) !important;
+  padding: 20px;
+  border: 1px solid #FFF;
+  border-radius: 4px;
+  color: var(--main-color);
+  font-size: 19px;
+    font-weight: bold;
+}
+.accordion .accordion-collapse {
+  background-color: var(--white-color);
+  border: 1px solid #eee;
+  color: #9b9898;
+  line-height: 1.8;
+}
+.accordion .accordion-button:active , .accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #FFF  ;
+}
+.accordion img {
+  margin-left: 10px;
+}
+.accordion-button::after {
+  background-image: url("../images/Polygon\ 4.png");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/Polygon\ 4.png");
+
+}
 .planing_price .plan h4 {
   padding: 20px;
   position: relative;
@@ -951,7 +984,7 @@ MENU ACCOUNT
 }
 .content-menu {
   background-color: #f3fbfc;
-  padding-bottom: 3rem;
+  padding: 3rem;
 }
 .content-menu span {
   margin-right: 2rem;
@@ -1010,3 +1043,192 @@ MENU ACCOUNT
   cursor: pointer;
   font-weight: bold;
 }
+
+
+
+/* Start Account Details */
+.menu-list {
+  padding-bottom: 3rem;
+}
+.menu-list ul li a span {
+  margin-right: 20px;
+  font-size: 20px;
+  color: var(--main-color);
+}
+.menu-list ul li {
+  margin-bottom: 20px;
+}
+.menu-list .alerts {
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #F3FBFC;
+}
+.menu-list .alerts-head h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu-list .alerts-head img {
+  margin-left: 5px;
+}
+.menu-list .alerts-items {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: var(--white-color);
+  margin: 20px;
+  text-align: right;
+}
+
+.menu-list .alerts-items p {
+  font-weight: bold;
+  color: var(--main-color);
+}
+/* End Account Details */
+
+
+
+/* Start Account Details */
+.account-details {
+  background-color: #f3fbfc;
+  padding: 3rem;
+}
+.account-details span {
+  margin-right: .6rem;
+  font-size: 15px;
+  color: #1aa6b7;
+  font-weight: bold;
+}
+.account-details .form-selectmenu {
+  padding: 15px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+}
+.account-details .form-control,
+.account-details .form-select {
+  padding: 15px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+}
+.account-details .form-control:focus,
+.account-details .form-control:active,
+.conaccount-detailsent .form-select:focus,
+.account-details .form-select:active {
+  box-shadow: 0 0 10px #eee;}
+.account-details .myselect {
+  position: relative;
+}
+.account-details .fa {
+  color: var(--main-color);
+  font-size: 24px;
+}
+.account-details .myselect select {
+  padding-right: 10px;
+  outline: none;
+  color: #cac6c6 !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.account-details .myselect::after {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 25px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--main-color);
+  pointer-events: none;
+}
+.account-details .form-control::placeholder {
+  color: #cac6c6;
+  font-weight: 500;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.account-details .btn {
+  text-decoration: none;
+  padding: 15px 25px;
+  border: 1px solid var(--white-color);
+  border-radius: 30px;
+  color: var(--white-color);
+  margin-right: 15px;
+  background-color: var(--main-color);
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  font-size: 20px;
+}
+.account-details .btn:hover {
+  color: var(--main-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--main-color);
+}
+.account-details .row {
+  margin-bottom: 20px;
+}
+.btn_upload {
+  width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  padding: 15px;
+  background-color: var(--white-color);
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+}
+
+/* .btn_upload:hover,
+.btn_upload:focus {
+  background-color: #7ca9e6;
+} */
+
+.yes {
+  display: flex;
+  align-items: flex-start;
+  /* margin-top: 10px !important; */
+}
+
+.btn_upload input {
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  filter: alpha(opacity=1);
+  -moz-opacity: 0;
+  opacity: 0;
+}
+
+.it {
+  height: 100px;
+  margin-left: 10px;
+}
+
+.btn-rmv1,
+.btn-rmv2,
+.btn-rmv3,
+.btn-rmv4,
+.btn-rmv5 {
+  display: none;
+}
+
+.rmv {
+  cursor: pointer;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  display: inline-block;
+  background: rgba(255, 0, 0, 1);
+  margin: -5px -10px;
+}
+
+.rmv:hover {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+/* End Account Details */

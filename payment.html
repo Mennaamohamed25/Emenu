@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-Menu /Menu account</title>
+  <title>E-Menu / Register</title>
   <!-- Bootstrap Css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css"
     integrity="sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl" crossorigin="anonymous">
@@ -81,49 +81,136 @@
       </nav>
     </div>
   </section>
-  <!---->
-  <section id="menu-account">
-    <div class="mb-5 text-center mt-5 account-menu">
-      <label class="form-label">
-        <img src="./images/Group 219.png" width="80">
-        <span> تعدیل قائمة الطعام</span>
-      </label>
-    </div>
-    <div class="ur-account">
-      <p>حسابك / تعدیل قائمة الطعام </p>
-    </div>
-  </section>
+  <!-- End Header -->
 
 
-  <!-- Start Page Content -->
-  <section class="content-menu">
-    <div class="container form-box">
-      <div class="row">
-        <div class="col-12 text-center mt-5">
-          <label class="form-menu">
-            <img src="./images/menu (1).png" width="50">
-            <a href="#"> <span> الأقسام</span></a>
+
+  <!-- Start Steps Registers -->
+
+  <!-- Start Steps Registers -->
+
+<section class="steps text-center">
+  <div class="container">
+      <div class="intro_img">
+          <img src="images/Character.png" class="img-fluid" alt="" width="250">
+      </div>
+        <!-- STEPS -->
+<!-- STEPS -->
+<div class="container-fluid">
+<br /><br />
+<ul class="list-unstyled multi-steps">
+  <li class="is-active"> 
+  <img src="images/steps/one_selected.png" width="50" alt="">  
+  <br>
+  التسجيل
+</li>
+<li>
+  <img src="images/steps/two_selected.png" width="50" alt=""> <br>  
+    أختيار الباقة
+  </li> 
+<li>
+  <img src="images/steps/three_selected.png" alt="">   <br>
+    الدفع
+  </li> 
+   <li>
+      <img src="images/steps/four.png" alt="">   <br>
+       تسجيل الدخول
+      </li> 
+</ul>
+</div>
+  </div>
+</section>
+
+<!-- End Steps Registers -->
+
+
+  <!-- Start Planing Price -->
+  <section id="payment">
+    <div class="contanier">
+      <div class="row m-0 justify-content-evenly pt-5 pb-5">
+        <div class="col-lg-4 col-md-6 col-sm-12  first-one">
+          <h4>ملخص الطلب</h4>
+          <hr>
+          <p>كود الطلب : M20E56</p>
+          <div class="first-card d-flex justify-content-between">
+            <p>
+              الباقة المميزة
+            </p>
+            <p class="price">$30</p>
+          </div>
+          <hr>
+          <form>
+            <div class="all d-flex justify-content-around">
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                <label class="custom-control-label" for="customRadio">هل لديك كود خصم ؟</label>
+              </div>
+              <input type="text" id="fname" name="fname">
+            </div>
+          </form>
+          <hr>
+          <div class="first-card d-flex justify-content-between">
+
+            <p>
+              الضرائب والرسوم
+            </p>
+            <p class="loan">9.3$</p>
+          </div>
+          <hr>
+          <div class="first-card d-flex justify-content-between mb-5">
+            <p class="price">
+              المجموع
+            </p>
+            <p class="price">39.3$</p>
+          </div>
+          <label class="text-pp mb-2 d-flex">
+            <div class="face mt-2">
+              <img src="./images/surface1.png" width="29">
+            </div>
+            <p class="security">
+              سنقوم بمعالجة بياناتك الشخصية لتحقيك طلبك<br>
+              ولاغراض اخري وفقا ل سياسية الخصوصية . هذا الموقع محمي <br>
+              بواسطة reCAPTHA <br>
+              سياسة الخصوصية وشروط الخدمة الخاصة ب Google مطبقة
+            </p>
           </label>
         </div>
-        <div class="col-12 text-center mt-5">
-          <label class="form-menu">
-            <img src="./images/menu (1)@2x.png" width="50">
-            <a href="#"> <span> المنتجات</span></a>
-          </label>
-        </div>
-        <div class="col-12 text-center mt-5">
-          <label class="form-menu">
-            <img src="./images/ads.png" alt="">
-            <a href="#"> <span> الإعلانات</span></a>
-          </label>
+        <!--SECONT-->
+        <div class="col-lg-4 col-md-6 col-sm-12 second-one">
+          <div class="text-center pt-5">
+            <img src="./images/Group 153.png" width="140">
+          </div>
+          <h3 class="text-center mt-5">اختر طريقة الدفع</h3>
+          <hr>
+          <div class="pay mt-3">
+            <form>
+              <div class="custom-control custom-radio ">
+                <label class="postion">
+                  <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                  <img src="./images/Stc-logo.png" width="50" class="cr-img"></label>
+              </div>
+
+              <div class="custom-control custom-radio ">
+                <label class="postion">
+                  <input type="radio" class="custom-control-input " id="customRadio" name="example1" value="customEx ">
+                  <img src="./images/v.png" width="50" class="cr-img">
+                  <img src="./images/mc.png" width="50" class="visa-img">
+                </label>
+              </div>
+
+              <div class="custom-control custom-radio">
+                <label class="postion">
+                  <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                  <img src="./images/ic_account_balance_24px.png" width="20" class=" cr-img">
+                  <span> التحويل البنكى</span>
+                </label>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End Page Content -->
-
-
-
 
 
   <!-- Start Footer -->

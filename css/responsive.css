@@ -91,6 +91,9 @@
     left: 0;
     margin: auto;
   }
+  #payment .second-one {
+    margin-top: 2rem !important;
+  }
 }
 @media (max-width: 991.98px) {
   footer {

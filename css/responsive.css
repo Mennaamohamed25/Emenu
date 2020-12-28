@@ -94,6 +94,9 @@
   #payment .second-one {
     margin-top: 2rem !important;
   }
+  #payment .menna {
+    text-align: center !important;
+  }
 }
 @media (max-width: 991.98px) {
   footer {
@@ -151,6 +154,9 @@
   }
   header .contain .desc p {
     font-size: 14px;
+  }
+  img.hamada {
+    margin-left: 11.9px;
   }
 }
 @media (max-width: 1399.98px) {

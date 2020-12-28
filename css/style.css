@@ -52,10 +52,12 @@ a {
 
 /* Start Header */
 header {
-  background-image: url(../images/header-background.svg),
-    url(../images/header_background_2.svg),
-    url(../images/header_background_3.svg);
+  /* background-image: url(../images/header\ 2.svg) */
+  /* url(../images/header_background_2.svg),
+    url(../images/header_background_3.svg); */
+  background-color: #1aa6b7;
   background-size: cover;
+  height: 88vh;
 }
 header .navbar .navbar-brand img {
   margin-top: 10px;
@@ -68,7 +70,7 @@ header .navbar .nav-item .nav-link {
 header .navbar .nav-item .nav-link.active {
   position: relative;
 }
-header .navbar .nav-item .nav-link.active::after {
+header .navbar .nav-link.active::after {
   position: absolute;
   content: "";
   width: 30px;
@@ -227,11 +229,11 @@ header .contain .btns .learn_more:hover {
 .accordion .accordion-button {
   background-color: var(--white-color) !important;
   padding: 20px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   border-radius: 4px;
   color: var(--main-color);
   font-size: 19px;
-    font-weight: bold;
+  font-weight: bold;
 }
 .accordion .accordion-collapse {
   background-color: var(--white-color);
@@ -239,10 +241,11 @@ header .contain .btns .learn_more:hover {
   color: #9b9898;
   line-height: 1.8;
 }
-.accordion .accordion-button:active , .accordion-button:focus {
+.accordion .accordion-button:active,
+.accordion-button:focus {
   box-shadow: none;
   outline: none;
-  border: 1px solid #FFF  ;
+  border: 1px solid #fff;
 }
 .accordion img {
   margin-left: 10px;
@@ -252,7 +255,6 @@ header .contain .btns .learn_more:hover {
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("../images/Polygon\ 4.png");
-
 }
 .planing_price .plan h4 {
   padding: 20px;
@@ -293,8 +295,12 @@ header .contain .btns .learn_more:hover {
   background-color: var(--main-color);
   color: var(--white-color);
   font-weight: 500;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+.planing_price .plan .conntect_now:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* End Planing Price */
 
 /******************************************************************************/
@@ -446,31 +452,35 @@ header .contain .btns .learn_more:hover {
 /******************************************************************************/
 
 /* Start Footer */
-
+/* footer .container::before {
+  background-image: url(../images/footer.svg);
+} */
 footer {
   /* background-color: #f3fbfc; */
   /* padding: 238px 0; */
-  background-image: url(../images/Mask\ Group\ 1.png);
-
+  /* background-image: url(../images/Mask\ Group\ 1.png); */
+  background-color: #1aa6b7;
   /* transform: rotate(180deg); */
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 55vh;
-  padding: 6.2rem 0;
-}
-
-footer .container {
+  padding: 3.2rem 0;
 }
 
 footer .logo {
   margin-bottom: 30px;
 }
-
-footer h4 {
+footer h5 {
   color: var(--white-color);
   font-size: 20px;
   line-height: 1.6;
+}
+
+footer h4 {
+  color: var(--white-color);
+  font-size: 22px;
+  line-height: 2.6;
 }
 
 footer li .fa,
@@ -695,6 +705,7 @@ footer .special li a {
 .content {
   padding: 50px 0;
   background-color: #f3fbfc;
+  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
 }
 .content .form-label {
   color: var(--main-color);
@@ -741,7 +752,7 @@ footer .special li a {
 }
 .content .btn {
   text-decoration: none;
-  padding: 15px 25px;
+  padding: 1.2rem 4.4rem;
   border: 1px solid var(--white-color);
   border-radius: 30px;
   color: var(--white-color);
@@ -750,6 +761,7 @@ footer .special li a {
   font-weight: 500;
   transition: all 0.5s ease-in-out;
   font-size: 20px;
+  margin: 2.5rem 0;
 }
 .content .btn:hover {
   color: var(--main-color);
@@ -814,6 +826,7 @@ footer .special li a {
 .planing_price-pp {
   padding: 50px 0;
   background-color: #f3fbfc;
+  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
 }
 .planing_price-pp .title {
   margin-bottom: 40px;
@@ -919,6 +932,7 @@ footer .special li a {
 
 .content-q {
   background-color: #f3fbfc;
+  padding-bottom: 6rem;
 }
 .content-q .text-pp h6 {
   font-size: 35px;
@@ -986,6 +1000,7 @@ MENU ACCOUNT
 .content-menu {
   background-color: #f3fbfc;
   padding: 3rem;
+  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
 }
 .content-menu span {
   margin-right: 2rem;
@@ -1061,7 +1076,7 @@ MENU ACCOUNT
   border-radius: 5px;
   padding: 10px;
   text-align: center;
-  background-color: #F3FBFC;
+  background-color: #f3fbfc;
 }
 .menu-list .alerts-head h6 {
   font-size: 20px;
@@ -1084,15 +1099,14 @@ MENU ACCOUNT
 }
 /* End Account Details */
 
-
-
 /* Start Account Details */
 .account-details {
   background-color: #f3fbfc;
   padding: 3rem;
+  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
 }
 .account-details span {
-  margin-right: .6rem;
+  margin-right: 0.6rem;
   font-size: 15px;
   color: #1aa6b7;
   font-weight: bold;
@@ -1114,7 +1128,8 @@ MENU ACCOUNT
 .account-details .form-control:active,
 .conaccount-detailsent .form-select:focus,
 .account-details .form-select:active {
-  box-shadow: 0 0 10px #eee;}
+  box-shadow: 0 0 10px #eee;
+}
 .account-details .myselect {
   position: relative;
 }
@@ -1152,10 +1167,19 @@ MENU ACCOUNT
 
 .account-details .btn {
   text-decoration: none;
-  padding: 15px 25px;
-}/********************************************************/
+  padding: 1rem 2.3rem;
+  border: 1px solid var(--white-color);
+  border-radius: 30px;
+  color: var(--white-color);
+  margin-right: 15px;
+  background-color: var(--main-color);
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  font-size: 20px;
+} /********************************************************/
 #payment {
   background-color: #f3fbfc;
+  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
 }
 .first-one {
   background-color: #fff;
@@ -1250,6 +1274,7 @@ p.security {
   font-weight: 500;
   transition: all 0.5s ease-in-out;
   font-size: 20px;
+  margin: 3rem 2rem;
 }
 .account-details .btn:hover {
   color: var(--main-color);
@@ -1323,4 +1348,58 @@ p.security {
 #payment .btn:hover {
   color: var(--main-color);
   background-color: var(--white-color);
+}
+/*************hamada*/
+img.hamada {
+  /* margin-left: 0.1; */
+}
+/**************************************************************SECTIONACC**********************************/
+.sect {
+  background-color: #f3fbfc;
+  box-shadow: 0 8px 16px 0 #0000004f, 0 6px 20px 0 #0000004f;
+}
+.sect h4 {
+  color: #2c4250;
+  font-weight: bold;
+  margin: 4rem 0;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 1.6rem 2.8rem;
+  box-shadow: 0 6px 14px 0 #00000029, 0 6px 14px 0 #00000029;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.sect h4:hover {
+  color: #1aa6b7;
+}
+.content-section {
+  background-color: #f3fbfc;
+}
+.content-section .section-text p {
+  color: #1aa6b7;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 3.3rem;
+}
+.content-section .section-ipt .form-control {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--white-color);
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
+}
+.dirct {
+  direction: ltr;
+}
+.content-section .section-ipt .form-control:placeholder-shown {
+  color: #2c4250;
+  font-size: 18px;
+  font-weight: bold;
+}
+.content-section .opt {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--white-color);
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
 }

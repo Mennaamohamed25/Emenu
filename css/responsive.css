@@ -1,3 +1,32 @@
+@media (max-width: 373.98px) {
+  .menu-list ul li a span {
+    font-size: 19px;
+  }
+  #menu-account span {
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width: 413.98px) {
+  .welcome img {
+    width: 100%;
+  }
+  .ur-account {
+    text-align: center !important;
+    margin: auto;
+  }
+  .content-menu .form-menu img {
+    width: 35px !important;
+  }
+}
+@media (max-width: 467.98px) {
+  .content-menu .form-menu {
+    padding: 1rem 4rem !important;
+  }
+  .content-menu .form-menu img {
+    width: 41px !important;
+  }
+}
 @media (max-width: 575.98px) {
   .top_bar {
     text-align: center;
@@ -46,6 +75,12 @@
   /* .desc-t .desc h2 p {
     text-align: center;
   } */
+  .sc-f ul {
+    text-align: center !important;
+  }
+  .ur-account p {
+    text-align: !important;
+  }
 }
 @media (max-width: 767.98px) {
   .top_bar {
@@ -136,6 +171,16 @@
   .navbar {
     margin-bottom: 40px;
   }
+  .cent {
+    margin: auto;
+  }
+  footer .social {
+    display: inline-flex;
+  }
+  .desc-t {
+    margin-top: 1.4rem;
+    text-align: center !important;
+  }
 }
 @media (max-width: 1199.98px) {
   footer {
@@ -176,6 +221,9 @@
   }
   header .contain .desc p {
     font-size: 14px;
+  }
+  footer .social {
+    display: inline-flex;
   }
 }
 

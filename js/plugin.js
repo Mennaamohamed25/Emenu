@@ -83,3 +83,8 @@ $(document).ready(function(){
   
   });
 
+
+  $(function() {
+    $( "#player-list" ).sortable();
+  });
+

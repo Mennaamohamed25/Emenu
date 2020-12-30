@@ -67,6 +67,12 @@ a {
   font-size: 17px;
   font-weight: 500;
 }
+.nav-link {
+  color: var(--main-color);
+}
+.nav-link:hover {
+  color: var(--main-color); 
+}
 .main-navbar .navbar .nav-item .nav-link.active {
   position: relative;
 }
@@ -733,7 +739,7 @@ footer .special li a {
 .content {
   padding: 50px 0;
   background-color: #f3fbfc;
-  box-shadow: 0 0 6px 0 #0000004f inset;
+  /* box-shadow: 0 0 6px 0 #0000004f inset; */
 }
 .content .form-label {
   color: var(--main-color);
@@ -1026,12 +1032,12 @@ MENU ACCOUNT
 .ur-account {
   margin-right: 7rem;
   color: #1aa6b7;
-  font-size: 20px;
+  font-size: 16px;
 }
 .content-menu {
   background-color: #f3fbfc;
   padding: 3rem;
-  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
+  /* box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f; */
 }
 .content-menu span {
   margin-right: 2rem;
@@ -1090,7 +1096,7 @@ MENU ACCOUNT
   border-radius: 50px;
   cursor: pointer;
   font-weight: bold;
-  box-shadow: 0 0 10px #0000004f;
+  box-shadow: 0 0 1px #0000004f;
 }
 
 /* Start Account Details */
@@ -1136,7 +1142,7 @@ MENU ACCOUNT
 .account-details {
   background-color: #f3fbfc;
   padding: 3rem;
-  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
+  /* box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f; */
 }
 .account-details span {
   margin-right: 0.6rem;
@@ -1212,7 +1218,7 @@ MENU ACCOUNT
 } /********************************************************/
 #payment {
   background-color: #f3fbfc;
-  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
+  /* box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f; */
 }
 .first-one {
   background-color: #fff;
@@ -1389,18 +1395,24 @@ img.hamada {
 /**************************************************************SECTIONACC**********************************/
 .sect {
   background-color: #f3fbfc;
-  box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f;
+  /* box-shadow: 0 0 0 #0000004f, 0 9px 20px 0 #0000004f; */
 }
-.sect h4 {
+.sect a {
+  display: inline-block;
   color: #2c4250;
   font-weight: bold;
   margin: 4rem 0;
   background-color: #fff;
   border-radius: 50px;
   padding: 1.6rem 2.8rem;
-  box-shadow: 0 1px 5px 0 #00000029, 0 1px 5px 0 #00000029;
   cursor: pointer;
+  font-size: 22px;
   transition: ease-in-out 0.2s;
+  box-shadow: 0 0 10px #eee;
+  color: var(--main-color);
+}
+.sect a.current {
+  color: #333;
 }
 .sect h4:hover {
   color: #1aa6b7;
@@ -1440,12 +1452,18 @@ img.hamada {
   text-decoration: none;
   padding: 20px 40px;
   border: 1px solid var(--white-color);
-  border-radius: 30px;
+  border-radius: 40px;
   background-color: var(--main-color);
   color: var(--white-color);
   font-weight: bold;
   transition: all 0.5s ease-in-out;
   font-size: 22px;
+}
+.content-section .btn:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+  transition: all .5s ease-in-out;
+  border: 1px solid var(--main-color);
 }
 .yes span {
   color: var(--main-color);
@@ -1471,3 +1489,287 @@ img.hamada {
   width: 100%;
   position: absolute;
 } */
+
+
+
+
+
+
+/* Add New Section */
+.add_section_done .fa {
+  font-size: 30px;
+  color: var(--main-color);
+}
+.add_section_done span {
+  font-size: 20px;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.form-select {
+  padding-right: 10px;
+  outline: none;
+  color: #cac6c6 !important;
+  font-weight: 500;
+  font-size: 17px;
+}
+.form-select:active , .form-select:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+.form-control::placeholder {
+  color: #333;
+  font-weight: 600;
+}
+ .form-selectmenu {
+  padding: 15px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+}
+ .form-control,
+ .form-select {
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+}
+
+ /* .form-control:focus,
+ .form-control:active,
+ .form-select:focus,
+ .form-select:active {
+  box-shadow: 0 0 10px #eee;
+} */
+ .myselect {
+  position: relative;
+}
+
+ .myselect select {
+  padding-right: 10px;
+  outline: none;
+  color: #333 !important;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+ .myselect::after {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 24px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--main-color);
+  pointer-events: none;
+}
+.add-section-upload {
+  font-size: 14px;
+  margin-left: 6px;
+}
+.btn_upload_add_section {
+  font-weight: bold;
+}
+p {
+  margin-bottom: 0px;
+}
+.ur-account p {
+  margin-bottom: 16px;
+  color: var(--main-color);
+}
+
+
+
+
+/* categories page */
+.categories .heading {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: var(--main-color);
+  font-size: 18px;
+  box-shadow: 0 0 10px #eee;
+}
+.categories .cat_body {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #eee;
+}
+.categories .cat_body img {
+  width: 100px;
+  border-radius: 10px;
+}
+.edit-pencil {
+  font-size: 14px;
+  color: var(--main-color);
+}
+.edit-pencil .fa {
+  margin-left: 5px;
+}
+.edit-btn .fa {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.edit-btn {
+  text-decoration: none;
+  padding: 5px 21px;
+  border: 1px solid var(--white-color);
+  border-radius: 40px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  transition: all 0.5s ease-in-out;
+  font-size: 15px;
+  display: inline-flex;
+  margin-left: 20px;
+}
+.edit-btn:active , .edit-btn:focus {
+  outline: none;
+  border: none;
+}
+.modal-dialog {
+  max-width: 1000px;
+  border-radius: 15px;
+}
+.modal-dialog .modal-body {
+  padding: 10px 20px;
+}
+.modal-dialog .modal-body .form-control {
+  padding: 15px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+.btn-close {
+  background: none;
+  color: var(--main-color) !important;
+  cursor: pointer;
+}
+.btn-close .fa {
+  font-size: 20px !important;
+}
+.btn-close:active , .btn-close:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.modal-footer {
+  margin: auto;
+  border-top: 0;
+  padding: 20px;
+}
+
+.modal-dialog .btn {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.modal-dialog .btn.delete {
+  background-color: #ECF8F9;
+  color: var(--main-color);
+  box-shadow: 0 0 10px #e3dede;
+  margin-right: 20px;
+}
+
+.change-photo , .delete-photo {
+  color: var(--main-color);
+  font-size: 14px;
+}
+.delete-photo a {
+  color: var(--main-color);
+}
+.change-photo .fa , .delete-photo .fa {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.contain {
+  background-color: var(--white-color);
+  box-shadow: 0 0 10px #eee;
+  padding: 10px 10px 5px 10px;
+  border-radius: 10px;
+}
+.contain .add , .contain .remove {
+  font-size: 14px;
+  color: var(--main-color);
+}
+.contain select , .custome-select select {
+  font-size: 14px;
+  background-color: #ECF8F9;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.contain .myselect::after , .custome-select .myselect::after {
+  top: 12px;
+}
+.custome-select select {
+  margin-top: 17px;
+}
+.change-photo .btn_upload {
+  box-shadow: none;
+}
+.contain .fa {
+  margin-left: 5px;
+}
+.dash {
+  color: #707070;
+}
+.cat_two_select .form-select {
+  padding: 15px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px #eee;
+    border-radius: 10px;
+}
+.cat_one_select .form-select {
+  padding: 15px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px #eee;
+    border-radius: 10px;
+}
+.modal-body .form-label {
+  color: var(--main-color);
+}
+.actions {
+  padding: 30px 0;
+}
+.actions p {
+  color: #9B9B9B;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.actions .btn {
+  text-decoration: none;
+  padding: 20px 40px;
+  border: 1px solid var(--white-color);
+  border-radius: 40px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  font-size: 15px;
+}
+.actions .btn.cancel_edit {
+  background-color: transparent;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+.actions .btn.cancel_edit:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.cat_body .fa-chevron-down {
+  font-size: 13px;
+}

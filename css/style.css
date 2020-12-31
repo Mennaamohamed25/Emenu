@@ -1449,11 +1449,12 @@ img.hamada {
   font-size: 22px;
   transition: ease-in-out 0.2s;
   box-shadow: 0 0 10px #eee;
+  /* color: var(--main-color); */
+}
+.sect a:hover {
   color: var(--main-color);
 }
-.sect a.current {
-  color: #333;
-}
+
 .sect h4:hover {
   color: #1aa6b7;
 }

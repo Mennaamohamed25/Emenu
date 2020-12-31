@@ -971,7 +971,24 @@ li.is-active img {
   font-weight: 500;
   transition: all 0.5s ease-in-out;
 }
-.planing_price-pp .btn {
+.s-price .btn,
+.s-price .btn,
+.s-price .btn {
+  text-decoration: none;
+  /* padding: 17px 63px; */
+  border: 1px solid var(--white-color);
+  /* border-radius: 30px; */
+  color: var(--white-color);
+  margin-right: 15px;
+  /* background-color: var(--main-color); */
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  font-size: 20px;
+  margin: 3rem 0;
+  background-color: #fff;
+  width: 100%;
+}
+.planing_price-pp .nd .btn {
   text-decoration: none;
   padding: 17px 63px;
   border: 1px solid var(--white-color);

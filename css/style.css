@@ -91,7 +91,8 @@ a {
 }
 .main-page .contain {
   background-color: var(--main-color);
-  height: 77vh;
+  height: 67vh;
+  box-shadow: unset;
 }
 .main-page .contain .desc h2 {
   color: var(--white-color);
@@ -130,7 +131,7 @@ a {
   color: var(--white-color);
   background-color: var(--main-color);
   border: 1px solid var(--white-color);
-  box-shadow: 0 0 10px #eee;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main-page .contain .btns .learn_more {
   text-decoration: none;
@@ -143,13 +144,22 @@ a {
   transition: all 0.5s ease-in-out;
 }
 .main-page .contain .btns .learn_more:hover {
-  color: var(--main-color);
+  color: #2c4250;
   background-color: var(--white-color);
   border: 1px solid var(--white-color);
   box-shadow: 0 0 10px #eee;
 }
-.img-fluid {
-  max-width: 89%;
+.contain_background .img-fluid {
+  max-width: 105%;
+  margin-top: 5rem;
+  display: inline-block;
+
+  animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+}
+
+.mob {
+  z-index: 11111;
 }
 
 .extention img {
@@ -195,7 +205,9 @@ a {
   animation: flash; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s;
 }
-
+.desc-t {
+  z-index: 1111;
+}
 .our_features .features .feat_img img {
   width: 60px;
 }
@@ -488,6 +500,7 @@ a {
 .news .newsletter-button:hover {
   box-shadow: 0 0 20px #0000004f;
 }
+
 /* End News */
 
 /******************************************************************************/
@@ -572,6 +585,12 @@ footer .special li a {
 }
 .extention-footer img {
   margin-top: 1rem;
+}
+.extention-footer {
+  background-color: #f3fbfc;
+}
+.extention-footer-spcial {
+  background-color: unset;
 }
 /* End Footer */
 
@@ -729,6 +748,9 @@ footer .special li a {
   line-height: 65px;
   z-index: 222;
 } */
+li.is-active img {
+  width: 100px;
+}
 
 /* End Steps Register */
 
@@ -772,7 +794,7 @@ footer .special li a {
   padding-right: 10px;
   outline: none;
 }
-.content .myselect::after {
+.fx .content .myselect::after {
   content: "";
   position: absolute;
   left: 13px;
@@ -1096,7 +1118,7 @@ MENU ACCOUNT
   border-radius: 50px;
   cursor: pointer;
   font-weight: bold;
-  box-shadow: 0 0 1px #0000004f;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Start Account Details */
@@ -1105,8 +1127,9 @@ MENU ACCOUNT
 }
 .menu-list ul li a span {
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 22px;
   color: var(--main-color);
+  font-weight: bold;
 }
 .menu-list ul li {
   margin-bottom: 20px;
@@ -1189,7 +1212,7 @@ MENU ACCOUNT
   content: "";
   position: absolute;
   left: 13px;
-  top: 25px;
+  top: 24px;
   width: 0;
   height: 0;
   border-left: 8px solid transparent;

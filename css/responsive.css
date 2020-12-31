@@ -72,15 +72,26 @@
     left: 0;
     margin: auto;
   }
-  /* .desc-t .desc h2 p {
-    text-align: center;
-  } */
+
   .sc-f ul {
     text-align: center !important;
   }
   .ur-account p {
     text-align: !important;
   }
+  .steps li.is-active img {
+    width: 65px;
+  }
+  .steps li img {
+    width: 60px;
+  }
+  #payment .first-one,
+  #payment .second-one {
+    width: 90%;
+  }
+  /* .content .form-box .form-control {
+    width: 346px;
+  } */
 }
 @media (max-width: 767.98px) {
   .top_bar {
@@ -132,6 +143,12 @@
   #payment .menna {
     text-align: center !important;
   }
+  .our_partners .mondays img.img-fluid {
+    margin-top: 3rem !important;
+  }
+  /* .content .form-box .form-control {
+    width: 546px;
+  } */
 }
 @media (max-width: 991.98px) {
   footer {
@@ -181,6 +198,9 @@
     margin-top: 1.4rem;
     text-align: center !important;
   }
+  #account-details .form-control {
+    width: 71% !important;
+  }
 }
 @media (max-width: 1199.98px) {
   footer {
@@ -202,6 +222,9 @@
   }
   img.hamada {
     margin-left: 11.9px;
+  }
+  #account-details .form-control {
+    width: 71% !important;
   }
 }
 @media (max-width: 1399.98px) {

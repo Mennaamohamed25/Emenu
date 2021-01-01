@@ -1073,6 +1073,9 @@ MENU ACCOUNT
   color: #1aa6b7;
   font-size: 16px;
 }
+.ur-account a {
+  color: var(--main-color);
+}
 .content-menu {
   background-color: #f3fbfc;
   padding: 3rem;
@@ -1135,7 +1138,7 @@ MENU ACCOUNT
   border-radius: 50px;
   cursor: pointer;
   font-weight: bold;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 10px #eee;
 }
 
 /* Start Account Details */
@@ -1879,3 +1882,29 @@ ADD NEW PRDUCT PAGE
   color: var(--main-color);
   background-color: var(--white-color);
 }
+.sub-categories .cat_body {
+  margin: 10px 100px;
+}
+.sub-categories #player-list-sub span ,
+.sub-categories #player-list-sub button,
+.sub-categories #player-list-sub select
+ {
+  font-size: 14px;
+}
+.sub-categories #player-list-sub .edit-pencil {
+  font-size: 11px;
+}
+
+/* Start File Page */
+.files {
+  display: inline-block !important; 
+  border-radius: 40px !important;
+  min-width: 350px;
+}
+.files .btn_upload_add_section {
+  border-radius: 40px;
+  padding: 20px;
+  margin-right: 0 !important;
+}
+/* End File Page */
+

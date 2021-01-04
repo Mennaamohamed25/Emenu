@@ -80,6 +80,30 @@ $(document).ready(function(){
     $('.preview5').removeClass('it');
     $('.btn-rmv5').removeClass('rmv');
   });
+
+
+
+  // Slide When Click 
+  $(".fa-chevron-down").click(function () {
+    $(".sub-categories").slideToggle();
+  });
+
+
+  // Take Clone 
+  $(".add").on('click', function(e) {
+    e.preventDefault();
+    // console.log("add");
+    var liItem = $('.add_section').last().clone(true); 
+
+    liItem.appendTo(".modal-body");
+
+  });
+
+  // Remove
+  $(".remove").on('click', function(e) {
+    $(this).closest(".add_section").remove();
+    e.preventDefault();
+  });
   
   });
 
@@ -88,6 +112,7 @@ $(document).ready(function(){
     $( "#player-list" ).sortable();
   });
 
+<<<<<<< HEAD
   $(document).ready(function() {
     $("#show_hide_password a").on('click', function(event) {
         event.preventDefault();
@@ -105,4 +130,12 @@ $(document).ready(function(){
 
 
 
+=======
+  $(function() {
+    $( "#player-list-sub" ).sortable();
+  });
+
+
+ 
+>>>>>>> f94cff5aec239d37003850bf7df6ca8cb17347c5
 

@@ -1945,12 +1945,25 @@ ADD NEW PRDUCT PAGE
   color: var(--main-color);
   background-color: var(--white-color);
 }
+<<<<<<< HEAD
 .sub-categories .cat_body {
   margin: 10px 100px;
 }
 .sub-categories #player-list-sub span,
 .sub-categories #player-list-sub button,
 .sub-categories #player-list-sub select {
+=======
+.sub-categories {
+  display: none;
+}
+.sub-categories .cat_body {
+  margin: 10px 100px;
+}
+.sub-categories #player-list-sub span ,
+.sub-categories #player-list-sub button,
+.sub-categories #player-list-sub select
+ {
+>>>>>>> f94cff5aec239d37003850bf7df6ca8cb17347c5
   font-size: 14px;
 }
 .sub-categories #player-list-sub .edit-pencil {
@@ -1959,7 +1972,11 @@ ADD NEW PRDUCT PAGE
 
 /* Start File Page */
 .files {
+<<<<<<< HEAD
   display: inline-block !important;
+=======
+  display: inline-block !important; 
+>>>>>>> f94cff5aec239d37003850bf7df6ca8cb17347c5
   border-radius: 40px !important;
   min-width: 350px;
 }
@@ -1970,6 +1987,7 @@ ADD NEW PRDUCT PAGE
 }
 /* End File Page */
 
+<<<<<<< HEAD
 /****************************************************************
 CONF LOGIN PAGE
 ****************************************************************/
@@ -2275,3 +2293,5 @@ TALBAT PAGE
   right: 0;
   width: 90%;
 }
+=======
+>>>>>>> f94cff5aec239d37003850bf7df6ca8cb17347c5

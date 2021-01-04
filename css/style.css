@@ -1882,6 +1882,9 @@ ADD NEW PRDUCT PAGE
   color: var(--main-color);
   background-color: var(--white-color);
 }
+.sub-categories {
+  display: none;
+}
 .sub-categories .cat_body {
   margin: 10px 100px;
 }

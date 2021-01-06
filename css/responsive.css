@@ -37,6 +37,26 @@
   }
 }
 @media (max-width: 575.98px) {
+  .orders .reply .user .reply_contain {
+    text-align: center;
+  }
+  .content .upgrade_subscripe {
+    text-align: center;
+  }
+  .add_question {
+    text-align: center;
+  }
+  .add_question .add_question_btn {
+    margin-top: 20px;
+  }
+  .content .block {
+    text-align: center;
+  }
+  .content .block img {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
   .top_bar {
     text-align: center;
   }
@@ -106,6 +126,33 @@
   }
 }
 @media (max-width: 767.98px) {
+  .orders .reply .user .reply_contain {
+    border-right: 1px solid transparent;
+  padding: 0 0 0 0;
+  }
+  .orders .reply .user .reply_contain {
+    text-align: center;
+  }
+  .content .upgrade_subscripe {
+    text-align: center;
+  }
+  .add_question {
+    text-align: center;
+  }
+  .add_question .add_question_btn {
+    margin-top: 20px;
+  }
+  .content .block {
+    text-align: center;
+  }
+  .content .block img {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  .top_bar {
+    text-align: center;
+  }
   .sub-categories .cat_body {
     margin: 10px;
   }
@@ -166,6 +213,9 @@
   } */
 }
 @media (max-width: 991.98px) {
+  .content .upgrade_subscripe {
+    text-align: center;
+  }
   footer {
     background-size: cover;
   }

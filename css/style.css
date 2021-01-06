@@ -1911,3 +1911,320 @@ ADD NEW PRDUCT PAGE
 }
 /* End File Page */
 
+
+
+
+
+
+
+
+
+/* Start Common Question*/
+.question_header {
+  padding: 50px 0 0 50px;
+}
+.question_header .ur-account {
+  margin-right: 0;
+  text-align: right;
+}
+
+.question_header .question_intro span {
+  font-weight: bold;
+    font-size: 30px;
+    color: var(--main-color);
+    margin-right: 15px;
+}
+.question_header .form_search {
+  position: relative;
+  margin-top: 20px;
+}
+.question_header .form_search .question_icon {
+  position: absolute;
+  z-index: 11;
+  right: 35px;
+  line-height: 80px;
+  color: #2C4250;
+  font-size: 20px;
+}
+.question_header .form_search .question_search {
+  box-shadow: 0 3px 2px #ede9e9;
+  background-color: #F3FBFC !important;
+  border-radius: 50px;
+  padding: 25px 65px 25px 25px;
+}
+.question_header .form_search .question_search::placeholder {
+  color: #c2c2c2;
+}
+.question_header .form_search .question_search:focus ,
+.question_header .form_search .question_search:active {
+  border: 1px solid var(--main-color);
+}
+.content .block {
+  box-shadow: 0 0 3px #ede9e9;
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.content .block img {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
+.content .block h6 {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+.content .block p {
+  color: #2C4250;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.content .block span {
+  color: #707070;
+}
+.content .add_question .add_question_btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  transition: all 0.5s ease-in-out;
+  border: 1px solid var(--main-color);
+  font-weight: 500;
+}
+.content .add_question .add_question_btn:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
+.content .add_question .add_question_btn:focus,
+.content .add_question .add_question_btn:active {
+  box-shadow: none;
+  outline: none;
+}
+.content .add_question {
+  margin-top: 40px;
+}
+.content .add_question img {
+  width: 25px;
+}
+.content .add_question span {
+  color: #2C4250;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* End Common Question*/
+
+
+/* Start Subscribe */
+.content .upgrade_subscripe {
+  font-weight: bold;
+  color: #2C4250;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.content .table_bill {
+  background-color: var(--white-color);
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #ede9e9;
+}
+.content .table_bill h4 {
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--main-color);
+  padding: 20px 0 20px 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.content .table_bill h4:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  right: 0;
+  width: 110px;
+  height: 3px;
+  background-color: var(--main-color);
+}
+.content .table_bill table th {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 17px;
+  width: 300px;
+}
+.content .table_bill table tr:last-of-type th,
+.content .table_bill table tr:last-of-type td,
+.content .table_bill table tr.no_border {
+  border-bottom: 1px solid transparent;
+}
+.content .table_bill .table tr .tax,
+.content .table_bill .table tr .method {
+    color: #2C4250;
+  }
+
+.content .table_bill tr th {
+  padding: 20px 0;
+  font-weight: bold !important;
+}
+.content .table_bill tr th.all {
+  color: #B72A1A;
+}
+.content .table_bill tr th.total {
+  color: #2C4250;
+}
+.content .table_bill tr td img {
+  width: 20px;
+  margin-left: 7px;
+}
+.content .table_bill tr td {
+  font-weight: bold;
+  font-size: 14px;
+  color: #2C4250;
+  padding: 20px 30px 20px  0;
+  border-right: 1px solid #ddd;
+}
+.content .table_bill tr.tax {
+  border-bottom: 1px solid transparent;
+}
+.content .table_bill tr.tax th {
+  color: #717171;
+}
+.content .summary {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.content .summary p {
+  color: var(--main-color);
+  font-weight: bold;
+}
+.content .summary span {
+  font-weight: bold;
+  color: #2C4250;
+}
+/* End Subscribe */
+
+.current {
+  color: var(--main-color) !important;
+}
+.orders .details {
+  background-color: var(--white-color);
+  padding: 20px;
+  box-shadow: 0 0 3px #ede9e9;
+  border-radius: 15px;
+}
+.orders .details .one {
+  padding: 25px;
+}
+.orders .details .one p {
+  color: var(--main-color);
+  font-weight: bold;
+}
+.orders .details .one span {
+  font-weight: bold;
+  font-size: 14px;
+}
+.orders .details .divider {
+  width: 100%;
+  background-color: #00000029;
+  height: 1px;
+}
+.orders .reply .user {
+  background-color: var(--white-color);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #ede9e9;
+  padding: 30px 20px;
+}
+.orders .reply .user .user_data h6 {
+  font-size: 20px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.orders .reply .user .user_data span {
+  color: #717171;
+  margin-top: 10px;
+  display: block;
+}
+.orders .reply .user .user_data p {
+  color: var(--main-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.orders .reply .user .reply_contain p {
+  color: var(--main-color);
+  margin-bottom: 5px
+}
+.orders .reply .user .reply_contain {
+  border-right: 1px solid #ddd;
+  padding: 0 18px 0 0;
+}
+
+.orders .reply .user .reply_contain span {
+  color: #717171
+}
+.orders  .add_question_btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  transition: all 0.5s ease-in-out;
+  border: 1px solid var(--main-color);
+  font-weight: 500;
+}
+.orders  .add_question_btn:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
+.orders  .add_question_btn:focus,
+.orders  .add_question_btn:active {
+  box-shadow: none;
+  outline: none;
+}
+textarea::placeholder {
+  color: #ddd !important;
+}
+.yes.no_background .btn_upload{
+  box-shadow: none;
+  cursor: pointer;
+}
+.modal-header {
+  padding: 20px 30px;
+}
+.modal .background {
+  border-radius: 50%;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.modal .validation {
+  color: #B72A1A;
+  font-size: 13px;
+}
+.change_password {
+  color: #2C4250;
+  font-weight: bold;
+}
+.change_password:hover {
+  color: #2C4250;
+}
+.form-box .show_pass {
+  position: relative;
+}
+.form-box p {
+  position: absolute;
+  z-index: 099999999;
+  left: 0;
+  padding: 12px 0 0 10px;
+  color: var(--main-color);
+  cursor: pointer;
+}

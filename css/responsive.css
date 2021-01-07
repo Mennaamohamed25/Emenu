@@ -216,6 +216,9 @@
   #account-details .form-control {
     width: 71% !important;
   }
+  .menu2-bar p {
+    display: block;
+  }
 }
 @media (max-width: 1199.98px) {
   footer {

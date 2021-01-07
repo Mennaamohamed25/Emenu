@@ -112,7 +112,6 @@ $(document).ready(function(){
     $( "#player-list" ).sortable();
   });
 
-<<<<<<< HEAD
   $(document).ready(function() {
     $("#show_hide_password a").on('click', function(event) {
         event.preventDefault();
@@ -130,12 +129,10 @@ $(document).ready(function(){
 
 
 
-=======
   $(function() {
     $( "#player-list-sub" ).sortable();
   });
 
 
  
->>>>>>> f94cff5aec239d37003850bf7df6ca8cb17347c5
 

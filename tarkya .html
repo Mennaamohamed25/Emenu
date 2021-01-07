@@ -52,7 +52,6 @@
   <!-- End Top Bar -->
 
 
-  <!-- Start Header -->
   <div class="main-navbar-2">
     <div class="container">
       <nav class="navbar navbar-expand-lg">
@@ -79,81 +78,87 @@
         </div>
       </nav>
     </div>
-
     <!-- End Header -->
 
-    <!-- Start Steps Registers -->
 
-    <section class="steps text-center">
-      <div class="container">
-        <div class="intro_img">
-          <img src="images/Character.svg" class="img-fluid" alt="" width="250">
-        </div>
-        <!-- STEPS -->
-        <div class="progress-wrap">
-          <div class="line-progress-bar">
-            <div class="line"></div>
-            <ul class="checkout-bar">
-              <li class="progressbar-dots active"> ١
-
-
-              </li>
-              <li class="progressbar-dots active"> ٢
-              </li>
-              <li class="progressbar-dots active">٣
-              </li>
-              <li class="progressbar-dots last-no"> ٤
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="d-flex justify-content-between all-regs-text">
-          <p>التسجيل</p>
-          <p>اختيار الباقة</p>
-          <p>الدفع</p>
-          <p>تسجيل الدخول</p>
-        </div>
+    <!---->
+    <section id="menu-account">
+      <div class="mb-5 text-center mt-5 account-menu">
+        <label class="form-label">
+          <img src="./images/subst.svg" width="80">
+          <span> الإشتراك</span>
+        </label>
+      </div>
+      <div class="ur-account">
+        <p><a href="#">
+            حسابك </a>
+          / <a href="#"> الإشتراك </a>
+          / <a href="#">ترقية الاشتراك
+          </a> </p>
       </div>
     </section>
-
-    <!-- End Steps Registers -->
-
+    <!--End-->
 
 
-    <!-- Start Page Content -->
-    <section class="content">
-      <div class="container form-box">
+
+    <!-- Start Planing Price -->
+    <section class="pp-subs text-center">
+      <div class="title">
+        <span>Price PLan</span>
+        <h6>خطط الأسعار</h6>
+      </div>
+      <div class="container">
         <div class="row">
-          <div class="col-12 text-center mb-5 welcome">
-            <img src="./images/Layer 2.png" width="400">
-            <p style="color: #1AA6B7; margin-top: 1rem;">أهلًا بك تم تسجيل حسابك بنجاح نأمل منك تسجيل الدخول</p>
-          </div>
-          <div class="col-md-6 col-sm-10">
-            <form>
-              <div class="mb-5">
-                <label class="form-label">
-                  <img src="images/register form/ic_account_circle_24px.svg" alt="">
-                  أسم المستخدم
-                </label>
-                <input type="text" class="form-control">
+          <div class="col-md-4">
+            <div class="plan one">
+              <h4>الباقة الاولي</h4>
+              <div class="price">
+                <span>$99</span>
               </div>
-              <div class="mb-3">
-                <label class="form-label">
-                  <img src="images/register form/ic_https_24px.svg" alt="">
-                  كلمة السر
-                </label>
-                <input type="password" class="form-control">
-              </div>
-            </form>
-            <div class="col-12 text-center  mt-5 ">
-              <button class="btn btn-primary " type="submit" class="next"> تسجيل دخول</button>
+              <ul class="list-unstyled">
+                <li>الميزة الأولي</li>
+                <li>الميزة الثانية</li>
+                <li>الميزة الثالثة</li>
+              </ul>
+              <a class="conntect_now" href="#">أشترك الأن</a>
             </div>
           </div>
 
+          <div class="col-md-4">
+            <div class="plan two">
+              <h4>الباقة الثانية</h4>
+              <div class="price">
+                <span>$49</span>
+              </div>
+              <ul class="list-unstyled">
+                <li>الميزة الأولي</li>
+                <li>الميزة الثانية</li>
+                <li>الميزة الثالثة</li>
+              </ul>
+              <a class="conntect_now" href="#">أشترك الأن</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="plan three">
+              <h4>الباقة الثالثة</h4>
+              <div class="price">
+                <span>$30</span>
+              </div>
+              <ul class="list-unstyled">
+                <li>الميزة الأولي</li>
+                <li>الميزة الثانية</li>
+                <li>الميزة الثالثة</li>
+              </ul>
+              <a class="conntect_now" href="#">أشترك الأن</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- End Page Content -->
+    <!-- End Planing Price -->
+
+
 
 
 
@@ -162,7 +167,8 @@
 
     <!-- JQuery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <!-- Bootstrap With Popper -->
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"
+      integrity="sha256-lnH4vnCtlKU2LmD0ZW1dU7ohTTKrcKP50WA9fa350cE=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"></script>
@@ -170,3 +176,5 @@
     <script src="js/plugin.js"></script>
 
 </body>
+
+</html>

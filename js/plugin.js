@@ -134,5 +134,26 @@ $(document).ready(function(){
   });
 
 
- 
+
+
+  function myFunction() {
+    var myBtn = document.getElementById("show"),
+        myInput = document.getElementById("myInput");
+
+        myBtn.onclick = function() {
+          'use strict';
+          if(this.textContent === "إظهار") {
+            myInput.setAttribute("type" , "text");
+            this.textContent = "إخفاء";
+          }else {
+            myInput.setAttribute("type" , "password");
+            this.textContent = "إظهار";
+          }
+        }
+  }
+
+
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "تم إضافة القسم بنجاح ";
+  }
 

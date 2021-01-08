@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-Menu / Register</title>
+  <title>E-Menu /Menu account</title>
   <!-- Bootstrap Css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css"
     integrity="sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl" crossorigin="anonymous">
@@ -52,6 +51,7 @@
   <!-- End Top Bar -->
 
 
+  <!-- Start Header -->
   <div class="main-navbar-2">
     <div class="container">
       <nav class="navbar navbar-expand-lg">
@@ -80,127 +80,94 @@
     </div>
     <!-- End Header -->
 
-    <!---->
-    <section id="product">
-      <div class="mb-5 text-center mt-5 account-menu">
-        <label class="form-label">
-          <img src="./images/Group 219.png" width="80">
-          <span> تعدیل قائمة الطعام </span>
-        </label>
+    <!--ASK-->
+    <section class="ask">
+      <div class="container">
+        <div class="mb-3 text-center ques-ask">
+          <label class="text-pp mb-3">
+            <h6>
+              <img src="images/question-mark.svg" width="50">
+              أهمّ الأسئلة الشائعة
+            </h6>
+          </label>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder=" ابحث عن ...." class="search-input">
+          <a href="#" class="search-btn">
+            <i class="fa fa-search"></i>
+          </a>
+        </div>
       </div>
       <div class="ur-account">
-        <p> <a href="#"> حسابك </a>
-          / <a href="#"> تعدیل قائمة الطعام </a>
-          / <a href="#">إضافة إعلان جديد </a> </p>
-      </div>
-    </section>
-    <!--End-->
+        <p><a href="#">
+            الأسئلة الشائعة </a>
+          / <a href="#">
+            / بحث عن :</a>
 
-    <!---->
-    <section class="sect">
-      <div class="contanier d-flex justify-content-evenly">
-        <div>
-          <a href="#">
-            الإعلانات
-          </a>
-        </div>
-        <div>
-          <a href="#" class="current">
-            إضافة إعلان جديد
-          </a>
-        </div>
+        </p>
       </div>
     </section>
-    <!--END-->
-    <!---->
-    <section class="content-section">
+    <!--END ASK-->
+
+    <!--QUS-->
+    <section class="ask-q">
       <div class="container form-box">
 
-        <div class="row mb-4">
-          <div class="col-lg-3 mt-2 section-text">
-            <p> اسم الإعلان </p>
-          </div>
-          <div class="col-lg-6 mt-2 section-ipt ">
-            <!-- <input type="text" class="form-control" placeholder=" اسم االإعلان"> -->
-            <p class="form-control"> اسم االإعلان</p>
-          </div>
-        </div>
+        <div class="row">
+          <div class="col-md-8 m-auto">
+            <form>
+
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item mb-5">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <img src="images/tick.svg" width="18" alt="">
+                      <span style="color: #B72A1A;"> كيف يمكننى تحميل الملفات ؟</span>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                      أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+                      أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+
+                      أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت
+
+                      نيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا
+
+                      كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم." </div>
+                  </div>
+                </div>
 
 
 
-        <div class="row mb-4">
-          <div class="col-lg-3 mt-2 section-text">
-            <p> صورة الإعلان</p>
-          </div>
-          <div class="col-lg-6 mt-2 section-ipt ">
-
-            <div class="yes">
-              <span class="btn_upload btn_upload_add_section">
-                <input type="file" id="imag" title="" class="input-img" />
-                <i class="fa fa-upload add-section-upload"></i>
-                اضغط هنا لرفع صورة الإعلان
-              </span>
-
-            </div>
-          </div>
-        </div>
 
 
-        <div class="row mb-4 mt-4">
-          <div class="col-lg-3 mt-2 section-text">
-            <p> موضع الإعلان</p>
-          </div>
-          <div class="col-lg-6 mt-2 section-ipt ">
-            <div class="mb-3 form-box">
-              <div class="myselect">
-                <select class="form-select form-select-lg mb-3">
-                  <option> في الصفحة الرئیسیة</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+
+
+
+
+
               </div>
-            </div>
+            </form>
           </div>
-        </div>
-        <div class="row mb-4 mt-4">
-          <div class="col-lg-3 mt-2 section-text">
-            <p> مكان الإعلان</p>
-          </div>
-          <div class="col-lg-6 mt-2 section-ipt ">
-            <div class="mb-3 form-box">
-              <div class="myselect">
-                <select class="form-select form-select-lg mb-3">
-                  <option> أعلى</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
 
-
-
-
-        <div class="row m-0 ">
-          <!-- Add Button -->
-          <div class="col-12 text-center pb-5 mt-4 onc-fn">
-            <p id="demo"></p>
-            <button class="btn btn-primary" type="submit" class="next" onclick="myFunction()"> إضافة </button>
-          </div>
         </div>
       </div>
     </section>
-    <!-- End Page Content -->
+
+    <!--END QUES-->
 
 
 
 
 
     <!-- JQuery  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap With Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"

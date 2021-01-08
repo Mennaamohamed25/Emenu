@@ -271,9 +271,23 @@
           </div>
           <div class="col-lg-6 mt-2 ">
             <div class="mb-3 form-box">
-              <input type="password" placeholder="  كلمة السر " class="form-control">
+              <div class="show_pass">
+                <p onclick="myFunction()" id="show">إظهار</p>
+                <input type="password" id="myInput" placeholder="  كلمة السر " class="form-control">
+              </div>
             </div>
           </div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6 text-end">
+            <a href="" class="change_password">هل تريد تغيير كلمة السر ؟</a>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-3"></div>
+
         </div>
 
         <div class="col-12 text-center press">
@@ -284,10 +298,8 @@
   </section>
   <!-- End Page Content -->
 
-
-
-  <div class="extention-footer">
-    <img src="./images/030AA.png" alt="" width="100%">
+  <div class="extention-footer-2">
+    <!-- <img src="./images/030AA.png" alt="" width="100%"> -->
   </div>
   <!-- Start Footer -->
   <footer class="footer">
@@ -303,7 +315,7 @@
               <h5>تواصل الأن معنا عبر وسائل التواصل الخاصة بنا</h5>
             </div>
             <div class="col-lg-7 col-sm-8 col-md-8 sc-f">
-              <ul class="list-unstyled text-end ">
+              <ul class="list-unstyled text-end">
                 <li class="email">
                   <span>info@tif.sa</span>
                   <i class="fa fa-envelope"></i>
@@ -382,8 +394,6 @@
     </div>
   </footer>
   <!-- End Footer -->
-
-
   <!-- Start Footer Bar -->
   <section class="footer_bar text-center">
     <div class="container">
@@ -402,8 +412,11 @@
         </div>
       </div>
     </div>
+
   </section>
   <!-- End Footer Bar -->
+
+
 
   <!-- JQuery  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

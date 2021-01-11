@@ -759,38 +759,6 @@ ul.navbar-nav a:hover {
   font-size: 22px;
 }
 
-/* .multi-steps > .roro::after {
-  color: red;
-  content: "";
-  height: 10px;
-  width: 95%;
-  position: absolute;
-  top: 56px;
-  right: 65%;
-  margin-left: 6%;
-  border-bottom: solid;
-} */
-
-/* .line {
-  position: absolute;
-  z-index: 0;
-  width: 63%;
-  height: 3px;
-  background-color: red;
-  top: 69%;
-  right: 15rem;
-} */
-/* .multi-steps > li:last-child:after {
-  display: none;
-} */
-/* .multi-steps > li.is-active:before {
-  background-color: #6f1989;
-  border-color: white;
-} */
-.multi-steps > li.is-active ~ li {
-  /* color: #808080; */
-  /* top: 0px; */
-}
 .multi-steps li {
   color: var(--main-color) !important;
   font-weight: bold;
@@ -1993,10 +1961,10 @@ ADD NEW PRDUCT PAGE
 .sub-categories .cat_body {
   margin: 10px 100px;
 }
-.sub-categories #player-list-sub span,
+/* .sub-categories #player-list-sub span,
 .sub-categories #player-list-sub button,
 .sub-categories #player-list-sub select {
-}
+} */
 
 .sub-categories .cat_body {
   margin: 10px 100px;
@@ -2706,10 +2674,10 @@ STEPS PAGE
 .dish-menu .cards-menu img {
   width: 300px;
 }
-.dish-menu .cards-menu p {
-  /* align-items: center;
-  text-align: center; */
-}
+/* .dish-menu .cards-menu p {
+  align-items: center;
+  text-align: center;
+} */
 .menu-eng-t {
   display: flex;
   text-align: center;

@@ -1134,7 +1134,6 @@ MENU ACCOUNT
   margin: 7rem 0;
 }
 .ur-account {
-  margin-right: 7rem;
   color: #1aa6b7;
   font-size: 16px;
 }
@@ -1602,6 +1601,9 @@ p.security {
   transition: all 0.5s ease-in-out;
   border: 1px solid var(--main-color);
 }
+.content-section .form-select {
+  box-shadow: 0 0 10px #eee;
+}
 .yes span {
   color: var(--main-color);
 }
@@ -1931,7 +1933,6 @@ ADD NEW PRDUCT PAGE
   margin: 7rem 0;
 }
 #product .ur-account {
-  margin-right: 7rem;
   color: #1aa6b7;
   font-size: 16px;
 }
@@ -2215,10 +2216,6 @@ ASK PAGE
   margin-top: 6rem;
 }
 .search-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   height: 60px;
   background: #f3fbfc;
   box-shadow: 0 3px 6px #00000029;
@@ -2228,12 +2225,10 @@ ASK PAGE
 }
 .search-input {
   background: #f3fbfc;
-  color: #1aa6b7;
+  color: #333;
   outline: none;
   border: none;
   line-height: 40px;
-  width: 0px;
-  float: left;
   font-size: 1.6rem;
   transition: 0.7s ease;
 }
@@ -2247,23 +2242,14 @@ ASK PAGE
   border-radius: 50%;
   float: right;
   color: #1aa6b7;
+  margin: 0px 8px;
   transition: 0.4s ease;
   box-shadow: 0 3px 6px #00000029;
 }
 .search-box:hover > .search-input {
-  width: 520px;
-  margin: 0px 8px;
+  width: 70%;
 }
-.search-input:focus {
-  width: 520px;
-  margin: 0px 8px;
-}
-.search-box:hover > .search-btn {
-  background: #fff;
-}
-.search-input:focus + .search-btn {
-  background: #fff;
-}
+
 /******QUESSTION****/
 
 .ask-q {
@@ -2498,7 +2484,6 @@ STEPS PAGE
 /* Progress Bar */
 .progress-wrap {
   margin: auto;
-  display: table;
   position: relative;
   margin-bottom: 3rem;
 }
@@ -2546,7 +2531,6 @@ STEPS PAGE
   justify-content: space-between;
   z-index: 1; */
   display: flex;
-  width: 983px;
   list-style: none;
   padding: 0px;
   margin: initial;
@@ -2620,7 +2604,6 @@ STEPS PAGE
 }
 .line-two {
   height: 4px;
-  width: 974px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #f3fbfc;
@@ -2897,11 +2880,13 @@ MENU 3
   color: var(--main-color);
   margin-right: 15px;
 }
-.question_header .form_search {
+.question_header .form_search,
+.ask .form_search {
   position: relative;
   margin-top: 20px;
 }
-.question_header .form_search .question_icon {
+.question_header .form_search .question_icon,
+.ask .form_search .question_icon {
   position: absolute;
   z-index: 11;
   right: 35px;
@@ -2909,13 +2894,15 @@ MENU 3
   color: #2c4250;
   font-size: 20px;
 }
-.question_header .form_search .question_search {
+.question_header .form_search .question_search,
+.ask .form_search .question_search {
   box-shadow: 0 3px 2px #ede9e9;
   background-color: #f3fbfc !important;
   border-radius: 50px;
   padding: 25px 65px 25px 25px;
 }
-.question_header .form_search .question_search::placeholder {
+.question_header .form_search .question_search::placeholder,
+.ask .form_search .question_search::placeholder {
   color: #c2c2c2;
 }
 .question_header .form_search .question_search:focus,
@@ -3079,6 +3066,7 @@ MENU 3
   padding: 20px;
   box-shadow: 0 0 3px #ede9e9;
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 .orders .details .one {
   padding: 25px;
@@ -3203,8 +3191,8 @@ NEW SUB
 .new-sub .sub-new {
   background: #ffffff;
   box-shadow: 0 3px 6px #00000029;
-  height: 70px;
   display: flex;
+  padding: 15px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -3218,8 +3206,8 @@ NEW SUB
 .new-sub .sub-new-info {
   background: #ffffff;
   box-shadow: 0 3px 6px #00000029;
-  height: 70px;
   display: flex;
+  padding: 15px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -3231,6 +3219,7 @@ NEW SUB
   font-weight: 600;
   font-size: 15px;
 }
+
 /*********************************/
 /*********************************************************************
 LOGIN PAGE 2
@@ -3374,4 +3363,28 @@ CONF CODE EMAIL 2 PAGE
   color: #1aa6b7;
   margin-right: 5px;
   text-decoration: underline;
+}
+
+.form-control:focus,
+.form-control:active {
+  box-shadow: none;
+  outline: none;
+}
+.form-control {
+  border-radius: 10px !important;
+}
+
+.sub-form {
+  border: 1px solid #ddd;
+  border-radius: 30px !important;
+  background-color: #ecf8f9;
+}
+.sub-form:focus,
+.sub-form:active {
+  border: 1px solid #ddd;
+  border-radius: 30px !important;
+  background-color: #ecf8f9;
+}
+.table .cr-img {
+  width: 40px !important;
 }

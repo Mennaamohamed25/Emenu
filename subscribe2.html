@@ -113,7 +113,7 @@
 
 
                <div class="row">
-                   <a class="upgrade_subscripe" href="">هل تريد ترقية حسابك ؟</a>
+                   <a class="upgrade_subscripe" href="">هل تريد ترقية الإشتراك ؟</a>
                </div>
 
 
@@ -169,67 +169,125 @@
                    <div class="col-lg-7">
                        <div class="table_bill">
                             <h4>أسم الباقة</h4>  
-                            <table class="table">
+                            <div class="table-responsive">
+                                <table class="table">
                               
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">قيمة الباقة</th>
-                                    <td>540$</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">خدمة 1</th>
-                                    <td>460$</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row" class="total">المجموع</th>
-                                    <td>1000$</td>
-                                  </tr>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">قيمة الباقة</th>
+                                        <td>540$</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">خدمة 1</th>
+                                        <td>460$</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row" class="total">المجموع</th>
+                                        <td>1000$</td>
+                                      </tr>
+    
+                                      <tr class="tax">
+                                        <th scope="row">ضريبة القيمة المضافة 15%</th>
+                                        <td>1050$</td>
+                                      </tr>
+    
+                                      <tr>
+                                        <th scope="row">  رصيد مستقطع</th>
+                                        <td>10$</td>
+                                      </tr>
+    
+                                      <tr class="no_border">
+                                        <th scope="row" class="all">   الإجمالي</th>
+                                        <td>2000$</td>
+                                      </tr>
+    
+                                      <tr class="no_border">
+                                        <th scope="row" class="tax">   الرقم الضريبي</th>
+                                        <td>123456789</td>
+                                      </tr>
+    
+                                      <tr class="no_border">
+                                        <th scope="row" class="method">    طريقة الدفع</th>
+                                        <td>
+                                            <form>
+                                                <div class="custom-control custom-radio ">
+                                                  <label class="postion">
+                                                    <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx" disabled="">
+                                                    <img src="./images/Stc-logo.png" width="50" class="cr-img">
+                                                    <span style="color: #717171;font-size: 15px;">(قریبا)</span>
+                                                  </label>
+                                                </div>
+                                
+                                                <div class="custom-control custom-radio ">
+                                                  <label class="postion">
+                                                    <input type="radio" class="custom-control-input " id="customRadio" name="example1" value="customEx " disabled="">
+                                                    <img src="./images/v.png" width="50" class="cr-img">
+                                                    <img src="./images/mc.png" width="50" class="visa-img">
+                                                    <span style="color: #717171;font-size: 15px;">(قریبا)</span>
+                                                  </label>
+                                                </div>
+                                                <div class="custom-control custom-radio ">
+                                                  <label class="postion">
+                                                    <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx" disabled="">
+                                                    <img src="./images/NicePng_rupay-card-png_3654057.png" width="50" class="cr-img">
+                                                    <span style="color: #717171;font-size: 15px;">(قریبا)</span>
+                                                  </label>
+                                                </div>
+                                
+                                                <div class="custom-control custom-radio">
+                                                  <label class="postion">
+                                                    <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+                                                    <img src="./images/ic_account_balance_24px.png" width="30" class=" cr-img">
+                                                    <span> التحويل البنكى</span>
+                                                  </label>
+                                                </div>
+                                              </form>
+                                        </td>
+                                      </tr>
+    
+    
+                                      <tr class="no_border">
+                                        <th scope="row">    البنك المحول منه</th>
+                                        <td  class="py-2">
+                                            <div class="myselect">
+                                                <select class="form-select sub-form form-select-lg mb-3">
+                                                  <option> تفعيل</option>
+                                                  <option value="1">ايقاف</option>
+                        
+                                                </select>
+                                              </div>
+                                        </td>
+                                      </tr>
+    
+                                      <tr class="no_border">
+                                        <th scope="row">      أسم صاحب الحساب</th>
+                                        <td  class="py-2">
+                                            <input type="text" class="form-control loun sub-form" placeholder="أدخل إسم صاحب الحساب">
+                                        </td>
+                                      </tr>
+    
+                                      <tr class="no_border">
+                                        <th scope="row">    البنك المحول اليه</th>
+                                        <td class="py-2">
+                                            <div class="myselect">
+                                                <select class="form-select sub-form form-select-lg mb-3">
+                                                  <option> تفعيل</option>
+                                                  <option value="1">ايقاف</option>
+                        
+                                                </select>
+                                              </div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                            
 
-                                  <tr class="tax">
-                                    <th scope="row">ضريبة القيمة المضافة 15%</th>
-                                    <td>1050$</td>
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row">  رصيد مستقطع</th>
-                                    <td>10$</td>
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row" class="all">   الإجمالي</th>
-                                    <td>2000$</td>
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row" class="tax">   الرقم الضريبي</th>
-                                    <td>123456789</td>
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row" class="method">    طريقة الدفع</th>
-                                    <td>
-                                        <img src="images/ic_account_balance_24px.svg" alt="">
-                                        تحويل بنكي
-                                    </td>
-                                  </tr>
-
-
-                                  <tr class="no_border">
-                                    <th scope="row">    البنك المحول منه</th>
-                                    <td>أسم البنك المحول منه</td>
-                                  </tr>
-
-                                  <tr class="no_border">
-                                    <th scope="row">      أسم صاحب الحساب</th>
-                                    <td>أسم صاحب الحساب</td>
-                                  </tr>
-
-                                  <tr class="no_border">
-                                    <th scope="row">    البنك المحول اليه</th>
-                                    <td>أسم البنك المحول اليه</td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              <div class="row text-end">
+                                  <div class="col-lg-12">
+                                    <button class="btn btn-primary">إرسال إشعار للإدارة</button>
+                                  </div>
+                              </div>
                        </div>
                    </div>
                </div>

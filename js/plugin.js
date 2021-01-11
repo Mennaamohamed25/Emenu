@@ -136,7 +136,7 @@ $(document).ready(function(){
 
 
 
-  function myFunction() {
+  function myFunctionChangePassword() {
     var myBtn = document.getElementById("show"),
         myInput = document.getElementById("myInput");
 

@@ -51,6 +51,14 @@ a {
 /* End Top Bar */
 
 /* Start Header */
+/* .main-navbar .navbar-collapse {
+  border-radius: 10px;
+  box-shadow: 0 3px 6px #00000029;
+}
+.main-navbar .navbar-collapse .navbar-nav {
+  margin: 0 auto;
+  text-align: center;
+} */
 .main-navbar .navbar .navbar-brand img {
   margin-top: 10px;
 }
@@ -79,6 +87,7 @@ a {
   left: 20px;
   margin: auto;
 }
+
 .main-navbar .navbar .nav-link.active {
   opacity: 1;
 }
@@ -394,6 +403,8 @@ a.navbar-brand {
   background-color: var(--main-color);
   color: var(--white-color);
   font-weight: 500;
+
+  animation: buttonani 5s infinite;
   transition: all 0.3s ease-in-out;
 }
 .planing_price .plan .conntect_now:hover {
@@ -648,6 +659,7 @@ footer .special li a {
   margin-top: -2px;
   background-color: #f4fafb;
   height: 15vh;
+  margin-bottom: -2px;
   animation: waveani 350s infinite;
 }
 .extention-footer-2 {
@@ -1013,6 +1025,11 @@ li.is-active img {
   background-color: #fff;
   width: 100%;
   box-shadow: 0px 0px 3px #95a5a6;
+  /* background-image: url(../images/price/two.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff; */
 }
 .planing_price-pp .nd .btn {
   text-decoration: none;
@@ -1188,7 +1205,24 @@ MENU ACCOUNT
 .menu-list ul li {
   margin-bottom: 20px;
 }
-.menu-list .alerts {
+.alerts {
+  border-radius: 15px;
+  box-shadow: 0 3px 6px #00000029;
+  padding: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+.alerts .alerts-text {
+  margin-right: 1rem;
+  color: #1aa6b7;
+  font-weight: bold;
+}
+.radio-menu-choose input.form-check-input {
+  position: relative;
+  top: 25%;
+}
+
+/* .menu-list .alerts {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
@@ -1212,7 +1246,7 @@ MENU ACCOUNT
 .menu-list .alerts-items p {
   font-weight: bold;
   color: var(--main-color);
-}
+} */
 /* End Account Details */
 
 /* Start Account Details */
@@ -1349,8 +1383,8 @@ p.loan {
 
 p.security {
   color: #2c4250;
-  font-size: 14px;
-  margin-right: 1rem;
+  font-size: 13px;
+  margin: 0 auto;
 }
 .custom-control-label {
   color: #1aa6b7;
@@ -2032,10 +2066,11 @@ CONF LOGIN PAGE
 .phone-msg-text p {
   font-size: 22px;
   margin-right: 4rem;
+  font-weight: 600;
 }
 .phone-msg-text ol li {
   font-size: 20px;
-  line-height: 4rem;
+  /* line-height: 4rem; */
   margin-right: 4rem;
 }
 .phone-msg-text ol li span a {
@@ -2076,6 +2111,10 @@ CONF LOGIN PAGE
   color: var(--main-color);
   background-color: var(--white-color);
   border: 1px solid var(--main-color);
+}
+.conf-login .btn {
+  margin-right: 0;
+  margin-left: 0;
 }
 /***********END***********************/
 
@@ -2121,7 +2160,7 @@ CHANGE PASSWORD PAGE
   font-weight: 500;
   transition: all 0.5s ease-in-out;
   font-size: 20px;
-  margin: 3rem 9rem;
+  margin: 0;
 }
 .change-p .btn:hover {
   color: var(--main-color);
@@ -2344,6 +2383,9 @@ CONTACT TO US PAGE
 .contact-to-us .form-label {
   color: var(--main-color);
   font-weight: bold;
+}
+.content .login-1 input::placeholder {
+  color: #00000029;
 }
 /***************END***********************/
 
@@ -2848,6 +2890,10 @@ MENU 3
   color: var(--main-color);
   margin-right: 15px;
 }
+.form_search {
+  width: 70%;
+  margin: 0 auto;
+}
 .question_header .form_search,
 .ask .form_search {
   position: relative;
@@ -2866,7 +2912,7 @@ MENU 3
 .ask .form_search .question_search {
   box-shadow: 0 3px 2px #ede9e9;
   background-color: #f3fbfc !important;
-  border-radius: 50px;
+  border-radius: 50px !important;
   padding: 25px 65px 25px 25px;
 }
 .question_header .form_search .question_search::placeholder,
@@ -3281,7 +3327,7 @@ CHOOSE CODE PAGE
   margin: 0 7px;
   color: #1aa6b7;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 17px;
 }
 .emial-mobile {
   margin-top: 5rem;

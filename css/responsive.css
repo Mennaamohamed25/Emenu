@@ -37,8 +37,17 @@
   }
 }
 @media ( max-width: 575.98px) {
+  .cat_body {
+    text-align: center;
+  }
+  .categories .heading {
+    text-align: center;
+  }
+  .categories .heading .dash {
+    display: none;
+  }
   .sub-new span {
-    font-size: 14px !important;
+    font-size: 410% !important;
   }
   .menu-eng {
     text-align: center;
@@ -138,6 +147,15 @@
   }
 }
 @media (max-width: 767.98px) {
+  .cat_body {
+    text-align: center;
+  }
+  .categories .heading {
+    text-align: center;
+  }
+  .categories .heading .dash {
+    display: none;
+  }
   .sub-new span {
     font-size: 14px !important;
   }
@@ -234,6 +252,15 @@
   } */
 }
 @media (max-width: 991.98px) {
+  .cat_body {
+    text-align: center;
+  }
+  .categories .heading {
+    text-align: center;
+  }
+  .categories .heading .dash {
+    display: none;
+  }
   .all-regs-text p {
     margin-right: 114px;
   }

@@ -3402,3 +3402,25 @@ CONF CODE EMAIL 2 PAGE
 .table .cr-img {
   width: 40px !important;
 }
+/**/
+.info-lists-all label.sett-menu,
+.info-lists-all label.food-list {
+  width: 230px;
+  text-align: right;
+}
+/*  */
+.account-info {
+  text-align: center;
+  padding-right: 2rem;
+}
+.info-lists-all {
+  background-color: #f3fbfc;
+  box-shadow: 0 0 6px #0000004f;
+  padding: 5rem 0;
+  margin-top: 3rem;
+}
+.info-lists-all a span {
+  color: var(--main-color);
+  font-weight: bold;
+  font-weight: 18px;
+}

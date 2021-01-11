@@ -371,6 +371,10 @@
   .main-navbar .navbar .nav-link.active::after {
     display: none;
   }
+  .food-menu,
+  .help-center {
+    margin-right: 1rem !important;
+  }
 }
 @media (max-width: 1199.98px) {
   .all-regs-text p {
@@ -472,8 +476,17 @@
     height: 50vh;
   }
 }
-/* @media (max-width: 1130px) {
-  .p.security {
-    font-size: 11px !important;
+@media (max-width: 575px) {
+  .menu-list label.sett-menu,
+  .menu-list label.food-list,
+  .menu-list label.help-label,
+  .menu-list label.files-label,
+  .menu-list label.sub-label {
+    text-align: right !important;
+    align-items: right;
   }
-} */
+  .account-info {
+    text-align: right !important;
+    align-items: right !important;
+  }
+}

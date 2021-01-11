@@ -2170,6 +2170,9 @@ CHANGE PASSWORD PAGE
 .input-group-addon .fa {
   color: #1aa6b7;
 }
+.change-pass input.form-control {
+  border-radius: 15px;
+}
 /*********END**************/
 
 /*****************************************
@@ -2188,6 +2191,10 @@ PASS DONE PAGE
   text-decoration: underline;
   color: #1aa6b7;
   font-size: 20px;
+  padding-bottom: 5rem;
+}
+.done-img {
+  padding-top: 4rem;
 }
 
 /********END**********/
@@ -3223,4 +3230,148 @@ NEW SUB
   color: #2c4250;
   font-weight: 600;
   font-size: 15px;
+}
+/*********************************/
+/*********************************************************************
+LOGIN PAGE 2
+*********************************************************************/
+.login-two-pass {
+  background-color: #f3fbfc;
+  box-shadow: 0 0 6px #0000004f;
+}
+.login-two-pass .login-img {
+  padding: 3rem 0;
+}
+.login-two-pass h6.text-login {
+  margin-top: 1.4rem;
+  color: #2c4250;
+  font-size: 16px;
+  font-weight: 600;
+}
+.login-two-pass h6.text-login span a {
+  color: #1aa6b7;
+  margin-right: 6px;
+}
+.login-two-pass .log-two input::placeholder {
+  color: #0000004f;
+  /* opacity: 50%; */
+}
+.login-two-pass .login-pass-forget {
+  float: left;
+  margin-top: 1rem;
+}
+.login-two-pass .login-pass-forget p a {
+  color: #2c4250;
+  font-weight: bold;
+}
+.login-two-pass .login-top {
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+}
+.login-two-pass .login-top h1 {
+  font-weight: 600;
+  color: #1aa6b7;
+}
+.login-two-pass .login-top p a,
+.login-two-pass .login-top p {
+  color: #1aa6b7;
+  margin-top: 1rem;
+  font-size: 15px;
+}
+.login-two-pass input.form-control {
+  box-shadow: 0 3px 6px #00000029;
+}
+/*************END************/
+
+/*********************************************************
+CHOOSE CODE PAGE
+*********************************************************/
+.choose-forget-code h3.text-login {
+  margin: 2rem 0;
+  color: #2c4250;
+  font-weight: bold;
+}
+.choose-forget-code p.text-login {
+  color: #2c4250;
+  font-size: 15px;
+  font-weight: bold;
+}
+.choose-forget-code {
+  background-color: #f3fbfc;
+  box-shadow: 0 0 6px #0000004f;
+}
+.choose-forget-code .login-top {
+  padding: 5rem 0;
+}
+.choose-forget-code .login-top h1 {
+  color: var(--main-color);
+  font-weight: 600;
+}
+.choose-forget-code .login-top p,
+.choose-forget-code .login-top p a {
+  color: var(--main-color);
+  margin-top: 1.4rem;
+}
+
+.choose-forget-code input.form-check-input {
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.choose-forget-code .form-check-label {
+  margin: 0 7px;
+}
+.choose-forget-code .form-check-label span {
+  margin: 0 7px;
+  color: #1aa6b7;
+  font-weight: bold;
+  font-size: 18px;
+}
+.emial-mobile {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.mail-phone-btn .btn {
+  margin: 0;
+}
+.last-code {
+  margin: 2rem 0;
+  padding-bottom: 5rem;
+}
+.last-code p a {
+  color: #1aa6b7;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 19px;
+}
+/***************************END**********************/
+
+/****************************************************************
+PHONE NUMBER PAGE 
+*****************************************************************/
+.phone-only {
+  margin: 5rem 0;
+}
+.phone-only input {
+  box-shadow: 0 3px 6px #00000029;
+}
+.phone-only input::placeholder {
+  color: #0000004f;
+}
+.phone-only span {
+  margin-right: 4px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+/******END****/
+
+/**********************************************
+CONF CODE EMAIL 2 PAGE
+***********************************************/
+.order-income {
+  margin: 3rem 0;
+}
+.order-income span a {
+  color: #1aa6b7;
+  margin-right: 5px;
+  text-decoration: underline;
 }

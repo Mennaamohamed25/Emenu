@@ -3221,15 +3221,17 @@ NEW SUB
   border-radius: 10px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.sub-form {
+  border: 1px solid #DDD;
+    border-radius: 30px !important;
+    background-color: #ecf8f9;
+}
+.sub-form:focus,
+.sub-form:active {
+  border: 1px solid #DDD;
+    border-radius: 30px !important;
+    background-color: #ecf8f9;
+}
+.table .cr-img {
+  width: 40px !important;
+}

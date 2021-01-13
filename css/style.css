@@ -50,15 +50,6 @@ a {
 }
 /* End Top Bar */
 
-/* Start Header */
-/* .main-navbar .navbar-collapse {
-  border-radius: 10px;
-  box-shadow: 0 3px 6px #00000029;
-}
-.main-navbar .navbar-collapse .navbar-nav {
-  margin: 0 auto;
-  text-align: center;
-} */
 .main-navbar .navbar .navbar-brand img {
   margin-top: 10px;
 }
@@ -77,7 +68,7 @@ a {
 .main-navbar .navbar .nav-item .nav-link.active {
   position: relative;
 }
-.main-navbar .navbar .nav-link.active::after {
+/* .main-navbar .navbar .nav-link.active::after {
   position: absolute;
   content: "";
   width: 30px;
@@ -86,7 +77,7 @@ a {
   top: 40px;
   left: 20px;
   margin: auto;
-}
+} */
 
 .main-navbar .navbar .nav-link.active {
   opacity: 1;
@@ -195,7 +186,7 @@ a {
   width: 100%;
   margin-top: -2px;
 
-  height: 40vh;
+  height: 34vh;
 
   animation: waveani 350s infinite;
 }
@@ -2766,7 +2757,7 @@ MENU TWO
   font-size: 18px;
 }
 .menu2-bar {
-  margin: 4rem auto;
+  margin: 3rem auto;
 }
 .menu2-bar p a {
   color: #333333;
@@ -2833,8 +2824,19 @@ MENU 3
 }
 .menu-3 .menu-eng-3 img {
   width: 226px;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 0;
+
   height: 226;
+}
+
+.top-menu h4 {
+  text-transform: capitalize;
+  font-size: 36px;
+
+  padding-bottom: 10px;
 }
 
 .menu-3-text {
@@ -2869,7 +2871,7 @@ MENU 3
   width: 265px;
   position: relative;
   float: right;
-  top: 1.4rem;
+  top: 1rem;
 }
 .space {
   margin-top: 4rem;
@@ -3202,21 +3204,33 @@ NEW SUB
   box-shadow: 0 3px 6px #0000004f;
   padding: 3rem 0;
 }
-.new-sub .sub-new {
-  background: #ffffff;
-  box-shadow: 0 3px 6px #00000029;
-  display: flex;
-  padding: 15px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
+td,
+th {
+  border: none;
 }
-.new-sub .sub-new span {
+.new-sub .winner__table {
   color: #1aa6b7;
   font-weight: bold;
   font-size: 18px;
 }
+.new-sub tr.winner__table,
+.new-sub tr.winner__table-2 {
+  background: #ffffff;
+  box-shadow: 0 3px 6px #00000029;
+  text-align: right;
+  align-items: center;
+  border-radius: 15px;
+  height: 64px;
+}
+.table tr th,
+.table tr td {
+  padding: 1rem;
+}
+.winner__table-2 {
+  color: #2c4250;
+  font-size: 18px;
+}
+
 .new-sub .sub-new-info {
   background: #ffffff;
   box-shadow: 0 3px 6px #00000029;
@@ -3404,16 +3418,7 @@ CONF CODE EMAIL 2 PAGE
 }
 
 /**/
-.info-lists-all label.sett-menu,
-.info-lists-all label.food-list {
-  width: 230px;
-  text-align: right;
-}
-/*  */
-.account-info {
-  text-align: center;
-  padding-right: 2rem;
-}
+
 .info-lists-all {
   background-color: #f3fbfc;
   box-shadow: 0 0 6px #0000004f;
@@ -3423,7 +3428,7 @@ CONF CODE EMAIL 2 PAGE
 .info-lists-all a span {
   color: var(--main-color);
   font-weight: bold;
-  font-weight: 18px;
+  font-size: 23px;
 }
 
 /*********************************************/
@@ -3518,3 +3523,167 @@ CONF CODE EMAIL 2 PAGE
 .steps-wrapper .number li:last-child::after {
   display: none;
 } */
+/******************************/
+/********************************************************
+MENU PAGE 4
+*********************************************************/
+.cards-menu2 {
+  height: 500px;
+  box-shadow: 0 3px 6px #00000029;
+  width: 300px;
+  padding: 0;
+  border-radius: 15px;
+  margin: 3rem auto;
+}
+.menu-eng-new {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: #333333;
+}
+.menu-eng-new span {
+  margin-left: 3rem;
+  color: #85311b;
+  font-weight: 600;
+  font-size: 14px;
+}
+.menu-eng-new hr {
+  width: 10%;
+  margin-top: 10px;
+  color: #333333;
+
+  height: 1px;
+
+  opacity: 0.9;
+}
+p.menu-res {
+  margin-top: 1rem;
+}
+span.res-menu {
+  margin-left: 7rem;
+}
+p.salary {
+  color: #333333;
+  font-size: 15px;
+  font-weight: 600;
+}
+p.food-descrep {
+  color: #333333;
+  font-size: 15px;
+}
+p.menu-res {
+  color: #85311b;
+  font-size: 15px;
+  font-weight: 600;
+}
+.lead {
+  font-size: 17px !important;
+}
+/*************************************/
+/********************************
+MENU4 Ar PAGE
+*********************************/
+.cards-menu3 {
+  height: 500px;
+  box-shadow: 0 3px 6px #00000029;
+  width: 300px;
+  padding: 0;
+  border-radius: 15px;
+  margin: 3rem auto;
+}
+.menu-ar-new {
+  margin-right: 2rem;
+  margin-top: 1rem;
+  color: #333333;
+}
+.menu-ar-new span {
+  margin-right: 3rem;
+  color: #85311b;
+  font-weight: 600;
+  font-size: 14px;
+}
+.menu-ar-new hr {
+  width: 10%;
+  margin-top: 10px;
+  color: #333333;
+
+  height: 1px;
+
+  opacity: 0.9;
+}
+p.menu-res {
+  margin-top: 1rem;
+}
+span.res-menu-ar {
+  /* font-size: 20px; */
+  margin: auto;
+  margin-right: 34px;
+}
+p.salary-ar {
+  color: #333333;
+  font-size: 13px;
+  font-weight: 600;
+}
+p.food-descrep-ar {
+  color: #333333;
+  font-size: 12px;
+  margin-top: -5px;
+}
+p.menu-res-ar {
+  color: #85311b;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+/********************************/
+/********************************************
+LAST MENU PAGE
+********************************************/
+.last-menu-vert {
+  box-shadow: 0 3px 6px #00000029;
+  /* height: 200px; */
+  /* padding: 0; */
+  border-radius: 15px;
+  /* width: 500px; */
+}
+.last-menu-vert img {
+  /* width: 200px; */
+  /* height: 200px; */
+}
+.last-menu-info {
+  margin-top: 1rem;
+}
+.emenu-text {
+  color: #333333;
+  font-size: 15px;
+  font-weight: 600;
+}
+.emenu-text span {
+  margin-left: 4rem;
+  color: #85311b;
+}
+.last-menu-info hr {
+  width: 10%;
+  margin-top: 14px;
+  color: #333333;
+
+  height: 1px;
+
+  opacity: 0.9;
+}
+p.emenu-text-2 {
+  color: #333333;
+  font-size: 15px;
+  margin-top: -4px;
+}
+p.emenu-text-3 {
+  color: #85311b;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 1.9rem;
+}
+span.emenu-ex {
+  margin-left: 7.7rem;
+}
+img.menu-img-last {
+  object-fit: cover;
+}

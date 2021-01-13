@@ -1,314 +1,27 @@
-@media (max-width: 373.98px) {
-  .menu-list ul li a span {
-    font-size: 19px;
-  }
-  #menu-account span {
-    font-size: 24px !important;
-  }
-  .sub-categories .cat_body {
-    margin: 10px;
-  }
-  .news .newsletter-input {
-    font-size: 10px;
-  }
-}
-@media (max-width: 352px) {
-  .accordion-header span {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 403px) {
-  .content-menu .form-menu span {
-    margin: 0;
-  }
-}
-@media (max-width: 470px) {
-  .files .btn_upload_add_section > span,
-  .files .btn_upload_add_section-two > span {
-    font-size: 18px;
-  }
-  .choose-forget-code .form-check-label span {
-    font-size: 12px !important;
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .choose-forget-code .form-check-label {
-    margin: 0;
-  }
-}
-@media (max-width: 413.98px) {
-  .welcome img {
-    width: 100%;
-  }
-  .ur-account {
-    text-align: center !important;
-    margin: auto;
-  }
-  .content-menu .form-menu img {
-    width: 35px !important;
-  }
-  .sub-categories .cat_body {
-    margin: 10px;
-  }
-  .news .newsletter-input {
-    font-size: 12px;
-  }
-  .news .newsletter-button {
-    top: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 8px 27px;
-  }
-}
-@media (max-width: 467.98px) {
-  .content-menu .form-menu {
-    padding: 1rem 4rem !important;
-  }
-  .content-menu .form-menu img {
-    width: 41px !important;
-  }
-  .sub-categories .cat_body {
-    margin: 10px;
-  }
-}
-@media ( max-width: 575.98px) {
-  .cat_body {
-    text-align: center;
-  }
-  .categories .heading {
-    text-align: center;
-  }
-  .categories .heading .dash {
-    display: none;
-  }
-@media (max-width: 575.98px) {
-  .sub-new span {
-    font-size: 410% !important;
-  }
-  .menu-eng {
-    text-align: center;
-  }
-  .line-two {
-    max-width: 244px;
-  }
-  .progress-wrap div ul {
-    max-width: 303px;
-  }
-  .orders .reply .user .reply_contain {
-    text-align: center;
-  }
-  .content .upgrade_subscripe {
-    text-align: center;
-  }
-  .add_question {
-    text-align: center;
-  }
-  .add_question .add_question_btn {
-    margin-top: 20px;
-  }
-  .content .block {
-    text-align: center;
-  }
-  .content .block img {
-    margin-bottom: 10px;
-    width: 60px;
-    height: 60px;
-  }
-  .top_bar {
-    text-align: center;
-  }
-  .top_bar .contact {
-    margin-bottom: 20px;
-  }
-  .top_bar_new {
-    text-align: center;
-  }
-  .top_bar_new .contact {
-    margin-bottom: 20px;
-  }
-  header {
-    padding: 10px 0 150px 0;
-  }
-  header .contain {
-    text-align: center;
-  }
-
-  header .contain .desc h2 {
-    font-size: 25px;
-    margin-bottom: 30px;
-  }
-  header .contain .desc p {
-    font-size: 14px;
-  }
-
-  footer {
-    background-size: cover;
-  }
-
-  header .navbar .nav-item .nav-link {
-    text-align: center;
-  }
-
-  .header_new .navbar .nav-item .nav-link {
-    text-align: center;
-  }
-
-  header .navbar .nav-item .nav-link.active::after {
-    right: 0;
-    left: 0;
-    margin: auto;
-  }
-
-  .sc-f ul {
-    text-align: center !important;
-  }
-  .ur-account p {
-    text-align: center !important;
-  }
-  .steps li.is-active img {
-    width: 65px;
-  }
-  .steps li img {
-    width: 60px;
-  }
-  #payment .first-one,
-  #payment .second-one {
-    width: 90%;
-  }
-  /* .content .form-box .form-control {
-    width: 346px;
-  } */
-  .sub-categories .cat_body {
-    margin: 10px;
-  }
-}
-@media (max-width: 767.98px) {
-  .cat_body {
-    text-align: center;
-  }
-  .categories .heading {
-    text-align: center;
-  }
-  .categories .heading .dash {
-    display: none;
-  }
-  .sub-new span {
-    font-size: 14px !important;
-  }
-  .line-two {
-    max-width: 300px;
-  }
-  .progress-wrap div ul {
-    max-width: 400px;
-  }
-  .orders .reply .user .reply_contain {
-    border-right: 1px solid transparent;
-    padding: 0 0 0 0;
-  }
-  .orders .reply .user .reply_contain {
-    text-align: center;
-  }
-  .content .upgrade_subscripe {
-    text-align: center;
-  }
-  .add_question {
-    text-align: center;
-  }
-  .add_question .add_question_btn {
-    margin-top: 20px;
-  }
-  .content .block {
-    text-align: center;
-  }
-  .content .block img {
-    margin-bottom: 10px;
-    width: 60px;
-    height: 60px;
-  }
-  .top_bar {
-    text-align: center;
-  }
-  .sub-categories .cat_body {
-    margin: 10px;
-  }
-  .top_bar {
-    text-align: center;
-  }
-  .top_bar .contact {
-    margin-bottom: 20px;
-  }
-  .top_bar_new {
-    text-align: center;
-  }
-  .top_bar_new .contact {
-    margin-bottom: 20px;
-  }
-  footer {
-    background-size: cover;
-  }
-
-  header {
-    padding: 10px 0 150px 0;
-  }
-  header .contain {
-    text-align: center;
-  }
-
-  header .contain .desc h2 {
-    font-size: 25px;
-    margin-bottom: 30px;
-  }
-  header .contain .desc p {
-    font-size: 14px;
-  }
-  header .navbar .nav-item .nav-link {
-    text-align: center;
-  }
-
-  .header_new .navbar .nav-item .nav-link {
-    text-align: center;
-  }
-
-  header .navbar .nav-item .nav-link.active::after {
-    right: 0;
-    left: 0;
-    margin: auto;
-  }
-  #payment .second-one {
-    margin-top: 2rem !important;
-  }
-  #payment .menna {
-    text-align: center !important;
-  }
-  .our_partners .mondays img.img-fluid {
-    margin-top: 3rem !important;
-  }
-  /* .content .form-box .form-control {
-    width: 546px;
-  } */
-  .phone-msg-text p {
-    font-size: 21px;
-    font-weight: 600;
-  }
-  /* .phone-msg-text ol li {
-    font-size: 17px;
-    line-height: 2.5rem;
-  } */
-
-  .nf-p {
-    text-align: center !important;
-  }
-  .sect a {
-    margin: 2rem 0;
-  }
-  .ask-t .non p {
-    font-size: 16px;
+@media (max-width: 421px) {
+  span.emenu-ex {
+    margin-left: 4rem !important;
+  }
+  .emenu-text span {
+    margin-left: 1rem;
   }
 }
 @media (max-width: 991.98px) {
+  .main-page .desc-t {
+    margin-top: 4rem;
+  }
+  .top_bar {
+    text-align: center !important;
+  }
+  .top_bar .contact {
+    margin-bottom: 20px !important;
+  }
+  .top_bar_new {
+    text-align: center;
+  }
+  .top_bar_new .contact {
+    margin-bottom: 20px;
+  }
   .cat_body {
     text-align: center;
   }
@@ -404,6 +117,314 @@
     margin-right: 1rem !important;
   }
 }
+
+@media (max-width: 373.98px) {
+  .menu-list ul li a span {
+    font-size: 19px;
+  }
+  #menu-account span {
+    font-size: 24px !important;
+  }
+  .sub-categories .cat_body {
+    margin: 10px;
+  }
+  .news .newsletter-input {
+    font-size: 10px;
+  }
+}
+@media (max-width: 352px) {
+  .accordion-header span {
+    font-size: 16px;
+  }
+  .menu-follow-us {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 403px) {
+  .content-menu .form-menu span {
+    margin: 0;
+  }
+}
+@media (max-width: 470px) {
+  .files .btn_upload_add_section > span,
+  .files .btn_upload_add_section-two > span {
+    font-size: 18px;
+  }
+  .choose-forget-code .form-check-label span {
+    font-size: 12px !important;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .choose-forget-code .form-check-label {
+    margin: 0;
+  }
+}
+@media (max-width: 413.98px) {
+  .welcome img {
+    width: 100%;
+  }
+  .ur-account {
+    text-align: center !important;
+    margin: auto;
+  }
+  .content-menu .form-menu img {
+    width: 35px !important;
+  }
+  .sub-categories .cat_body {
+    margin: 10px;
+  }
+  .news .newsletter-input {
+    font-size: 12px;
+  }
+  .news .newsletter-button {
+    top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px 27px;
+  }
+}
+@media (max-width: 467.98px) {
+  .content-menu .form-menu {
+    padding: 1rem 4rem !important;
+  }
+  .content-menu .form-menu img {
+    width: 41px !important;
+  }
+  .sub-categories .cat_body {
+    margin: 10px;
+  }
+}
+@media (max-width: 575.98px) {
+  .cat_body {
+    text-align: center;
+  }
+  .categories .heading {
+    text-align: center;
+  }
+  .categories .heading .dash {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .sub-new span {
+    font-size: 410% !important;
+  }
+  .menu-eng {
+    text-align: center;
+  }
+  .line-two {
+    max-width: 244px;
+  }
+  .progress-wrap div ul {
+    max-width: 303px;
+  }
+  .orders .reply .user .reply_contain {
+    text-align: center;
+  }
+  .content .upgrade_subscripe {
+    text-align: center;
+  }
+  .add_question {
+    text-align: center;
+  }
+  .add_question .add_question_btn {
+    margin-top: 20px;
+  }
+  .content .block {
+    text-align: center;
+  }
+  .content .block img {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  .top_bar {
+    text-align: center;
+  }
+  .top_bar .contact {
+    margin-bottom: 20px;
+  }
+  .top_bar_new {
+    text-align: center;
+  }
+  .top_bar_new .contact {
+    margin-bottom: 20px;
+  }
+  header {
+    padding: 10px 0 150px 0;
+  }
+  header .contain {
+    text-align: center;
+  }
+
+  header .contain .desc h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  header .contain .desc p {
+    font-size: 14px;
+  }
+
+  footer {
+    background-size: cover;
+  }
+
+  header .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .header_new .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  header .navbar .nav-item .nav-link.active::after {
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  .sc-f ul {
+    text-align: center !important;
+  }
+  .ur-account p {
+    text-align: center !important;
+  }
+  .steps li.is-active img {
+    width: 65px;
+  }
+  .steps li img {
+    width: 60px;
+  }
+  #payment .first-one,
+  #payment .second-one {
+    width: 90%;
+  }
+
+  .sub-categories .cat_body {
+    margin: 10px;
+  }
+}
+@media (max-width: 767.98px) {
+  .top_bar .container {
+    text-align: center !important;
+  }
+  .top_bar .container .contact {
+    margin-bottom: 20px !important;
+  }
+  .top_bar_new {
+    text-align: center;
+  }
+  .top_bar_new .contact {
+    margin-bottom: 20px;
+  }
+  .cat_body {
+    text-align: center;
+  }
+  .categories .heading {
+    text-align: center;
+  }
+  .categories .heading .dash {
+    display: none;
+  }
+  .sub-new span {
+    font-size: 14px !important;
+  }
+  .line-two {
+    max-width: 300px;
+  }
+  .progress-wrap div ul {
+    max-width: 400px;
+  }
+  .orders .reply .user .reply_contain {
+    border-right: 1px solid transparent;
+    padding: 0 0 0 0;
+  }
+  .orders .reply .user .reply_contain {
+    text-align: center;
+  }
+  .content .upgrade_subscripe {
+    text-align: center;
+  }
+  .add_question {
+    text-align: center;
+  }
+  .add_question .add_question_btn {
+    margin-top: 20px;
+  }
+  .content .block {
+    text-align: center;
+  }
+  .content .block img {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .sub-categories .cat_body {
+    margin: 10px;
+  }
+
+  footer {
+    background-size: cover;
+  }
+
+  header {
+    padding: 10px 0 150px 0;
+  }
+  header .contain {
+    text-align: center;
+  }
+
+  header .contain .desc h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  header .contain .desc p {
+    font-size: 14px;
+  }
+  header .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .header_new .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  header .navbar .nav-item .nav-link.active::after {
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  #payment .second-one {
+    margin-top: 2rem !important;
+  }
+  #payment .menna {
+    text-align: center !important;
+  }
+  .our_partners .mondays img.img-fluid {
+    margin-top: 3rem !important;
+  }
+
+  .phone-msg-text p {
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  .nf-p {
+    text-align: center !important;
+  }
+  .sect a {
+    margin: 2rem 0;
+  }
+  .ask-t .non p {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 1199.98px) {
   .all-regs-text p {
     margin-right: 210px;
@@ -496,6 +517,7 @@
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
   .desc-t .desc {
     text-align: center;
@@ -516,5 +538,26 @@
   .account-info {
     text-align: right !important;
     align-items: right !important;
+  }
+}
+@media (max-width: 448px) {
+  .select-m-eng {
+    font-size: 12px !important;
+  }
+  .select-m-eng img {
+    width: 14px !important;
+  }
+}
+
+@media (max-width: 527px) {
+  .follow-menu a.twitter .fa,
+  .follow-menu a.instagram .fa {
+    display: block;
+  }
+}
+
+@media (max-width: 345px) {
+  .menu2-bar p a {
+    font-size: 16px !important;
   }
 }

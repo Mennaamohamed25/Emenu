@@ -3204,6 +3204,17 @@ NEW SUB
   box-shadow: 0 3px 6px #0000004f;
   padding: 3rem 0;
 }
+.winner__table .better,
+.winner__table-2 .better {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.winner__table .better-2,
+.winner__table-2 td.better-2 {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
 td,
 th {
   border: none;
@@ -3215,8 +3226,8 @@ th {
 }
 .new-sub tr.winner__table,
 .new-sub tr.winner__table-2 {
-  background: #ffffff;
   box-shadow: 0 3px 6px #00000029;
+  background: #ffffff;
   text-align: right;
   align-items: center;
   border-radius: 15px;
@@ -3228,7 +3239,6 @@ th {
 }
 .winner__table-2 {
   color: #2c4250;
-  font-size: 18px;
 }
 
 .new-sub .sub-new-info {
@@ -3640,14 +3650,7 @@ LAST MENU PAGE
 ********************************************/
 .last-menu-vert {
   box-shadow: 0 3px 6px #00000029;
-  /* height: 200px; */
-  /* padding: 0; */
   border-radius: 15px;
-  /* width: 500px; */
-}
-.last-menu-vert img {
-  /* width: 200px; */
-  /* height: 200px; */
 }
 .last-menu-info {
   margin-top: 1rem;
@@ -3657,17 +3660,15 @@ LAST MENU PAGE
   font-size: 15px;
   font-weight: 600;
 }
-.emenu-text span {
-  margin-left: 4rem;
+span.colorful {
   color: #85311b;
+  font-weight: 600;
 }
 .last-menu-info hr {
   width: 10%;
   margin-top: 14px;
   color: #333333;
-
   height: 1px;
-
   opacity: 0.9;
 }
 p.emenu-text-2 {
@@ -3675,15 +3676,20 @@ p.emenu-text-2 {
   font-size: 15px;
   margin-top: -4px;
 }
-p.emenu-text-3 {
+/* p.emenu-text-3 {
   color: #85311b;
   font-size: 15px;
   font-weight: 600;
   margin-top: 1.9rem;
-}
-span.emenu-ex {
+} */
+/* span.emenu-ex {
   margin-left: 7.7rem;
-}
+} */
 img.menu-img-last {
   object-fit: cover;
+}
+.emenu-text-3 {
+  color: #333333;
+  font-size: 15px;
+  margin-top: -10px;
 }

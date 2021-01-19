@@ -906,7 +906,9 @@ li.is-active img {
 .container-fluid .active-button li.active .round-btn:before {
   background-color: #1aa6b7;
 }
-
+.content .form-control {
+  direction: rtl;
+}
 /*******************************************************/
 /* Start Planing Price */
 .selection-plan .list-unstyled {
@@ -1041,11 +1043,11 @@ li.is-active img {
   border: 1px solid var(--main-color);
 }
 
-.planing_price-pp .btn:hover {
+/* .planing_price-pp .btn:hover {
   color: var(--main-color);
   background-color: var(--white-color);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
 .content-q {
   background-color: #f3fbfc;
@@ -1433,7 +1435,8 @@ p.security {
 .account-details .row {
   margin-bottom: 20px;
 }
-.btn_upload {
+.upl,
+.test {
   width: 100%;
   cursor: pointer;
   display: inline-block;
@@ -1445,6 +1448,40 @@ p.security {
   box-shadow: 0 0 10px #eee;
   border-radius: 10px;
 }
+.test {
+  width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  padding: 15px;
+  background-color: var(--white-color);
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+  margin-top: 2rem;
+  color: var(--main-color);
+}
+.upl-2 {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  padding: 15px;
+  background-color: var(--white-color);
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+}
+.upl span.upl-text {
+  cursor: pointer;
+  color: var(--main-color);
+  font-weight: 600;
+}
+.upl .fa {
+  color: var(--main-color);
+  cursor: pointer;
+}
 
 /* .btn_upload:hover,
 .btn_upload:focus {
@@ -1455,6 +1492,9 @@ p.security {
   display: flex;
   align-items: flex-start;
   /* margin-top: 10px !important; */
+}
+.info-uplod p {
+  color: var(--main-color);
 }
 
 .btn_upload input {
@@ -1565,7 +1605,8 @@ p.security {
 .dirct {
   direction: ltr;
 }
-.content-section .section-ipt .form-control:placeholder-shown {
+.content-section .section-ipt .form-control:placeholder-shown,
+textarea::placeholder {
   color: #2c4250;
   font-size: 18px;
   font-weight: bold;
@@ -2012,25 +2053,26 @@ ADD NEW PRDUCT PAGE
   border-radius: 40px !important;
   min-width: 350px;
 }
-.files .btn_upload_add_section,
-.files .btn_upload_add_section-two {
+.files,
+.files {
   border-radius: 40px;
   padding: 10px 20px;
   margin-right: 0 !important;
   box-shadow: 0 3px 6px #00000029;
   text-align: right;
+  background-color: #fff;
 }
 
-.files .btn_upload_add_section > span {
+.files > span {
   margin: 0;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 21px;
+
   padding-right: 4px;
 }
-.files .btn_upload_add_section-two > span {
+.files > span {
   margin: 0;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 21px;
+
   padding-right: 4px;
 }
 /* End File Page */
@@ -2076,8 +2118,6 @@ CONF LOGIN PAGE
   border-radius: 15px;
   box-shadow: 0 3px 6px #00000029;
   outline: none;
-  color: #1aa6b7;
-  font-weight: bold;
 }
 .phone-code input::placeholder {
   text-align: center;
@@ -2347,6 +2387,9 @@ CONTACT TO US PAGE
 .contact-to-us {
   background-color: #f3fbfc;
   padding-top: 3rem;
+}
+.contact-to-us .form-control {
+  direction: rtl;
 }
 .contact-to-img img {
   margin-top: 2rem;
@@ -2941,7 +2984,7 @@ MENU 3
   display: block;
   margin-top: 15px;
 }
-.content .block h6 {
+.content .block h6 a {
   color: var(--main-color);
   font-size: 20px;
   font-weight: bold;
@@ -3153,7 +3196,7 @@ MENU 3
   outline: none;
 }
 textarea::placeholder {
-  color: #ddd !important;
+  /* color: #00000029 !important; */
 }
 .yes.no_background .btn_upload {
   box-shadow: none;
@@ -3195,6 +3238,9 @@ textarea::placeholder {
   color: var(--main-color);
   cursor: pointer;
 }
+.account-details .form-control {
+  direction: rtl;
+}
 /*************************************/
 /*******************************************************************
 NEW SUB
@@ -3203,6 +3249,9 @@ NEW SUB
   background-color: #f3fbfc;
   box-shadow: 0 3px 6px #0000004f;
   padding: 3rem 0;
+}
+tr {
+  white-space: nowrap;
 }
 .winner__table .better,
 .winner__table-2 .better {
@@ -3692,4 +3741,89 @@ img.menu-img-last {
   color: #333333;
   font-size: 15px;
   margin-top: -10px;
+}
+/*************/
+input::placeholder,
+textarea::placeholder {
+  color: #707070b8 !important;
+}
+input.form-control {
+  outline: none !important;
+  border: transparent !important;
+}
+textarea {
+  resize: none !important;
+}
+/****/
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+}
+.avatar-edit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: 10px;
+}
+.avatar-upload input {
+  display: none;
+}
+.avatar-edit label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.avatar-edit label::after {
+  content: "\f040";
+  font-family: "FontAwesome";
+  color: #757575;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  border-radius: 15px;
+
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-preview > div {
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.close-btn {
+  border-radius: 50%;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  opacity: 0.8;
+}
+.upl input {
+  display: none;
 }

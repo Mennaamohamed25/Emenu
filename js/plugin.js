@@ -129,31 +129,148 @@ $(document).ready(function(){
 
 
 
-  $(function() {
-    $( "#player-list-sub" ).sortable();
+
+$(document).ready(function() {
+  $("#show_hide_password2 a").on('click', function(event) {
+      event.preventDefault();
+      if($('#show_hide_password2 input').attr("type") == "text"){
+          $('#show_hide_password2 input').attr('type', 'password');
+          $('#show_hide_password2 i').addClass( "fa-eye-slash" );
+          $('#show_hide_password2 i').removeClass( "fa-eye" );
+      }else if($('#show_hide_password2 input').attr("type") == "password"){
+          $('#show_hide_password2 input').attr('type', 'text');
+          $('#show_hide_password2 i').removeClass( "fa-eye-slash" );
+          $('#show_hide_password2 i').addClass( "fa-eye" );
+      }
   });
+});
 
 
 
 
-  function myFunctionChangePassword() {
-    var myBtn = document.getElementById("show"),
-        myInput = document.getElementById("myInput");
 
-        myBtn.onclick = function() {
-          'use strict';
-          if(this.textContent === "إظهار") {
-            myInput.setAttribute("type" , "text");
-            this.textContent = "إخفاء";
-          }else {
-            myInput.setAttribute("type" , "password");
-            this.textContent = "إظهار";
-          }
+$(document).ready(function() {
+  $("#show_hide_password3 a").on('click', function(event) {
+      event.preventDefault();
+      if($('#show_hide_password3 input').attr("type") == "text"){
+          $('#show_hide_password3 input').attr('type', 'password');
+          $('#show_hide_password3 i').addClass( "fa-eye-slash" );
+          $('#show_hide_password3 i').removeClass( "fa-eye" );
+      }else if($('#show_hide_password3 input').attr("type") == "password"){
+          $('#show_hide_password3 input').attr('type', 'text');
+          $('#show_hide_password3 i').removeClass( "fa-eye-slash" );
+          $('#show_hide_password3 i').addClass( "fa-eye" );
+      }
+  });
+});
+
+
+
+function readURL(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+      reader.onload = function(e) {
+          $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+          $('#imagePreview').hide();
+          $('#imagePreview').fadeIn(650);
+      }
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+$("#imageUpload").change(function() {
+  readURL(this);
+});
+function readURL(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+      reader.onload = function(e) {
+          $('#imagePreview2').css('background-image', 'url('+e.target.result +')');
+          $('#imagePreview2').hide();
+          $('#imagePreview2').fadeIn(650);
+      }
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+$("#imageUpload").change(function() {
+  readURL(this);
+});
+
+
+
+  // $(function() {
+  //   $( "#player-list-sub" ).sortable();
+  // });
+
+
+
+
+  // $(function myFunctionChangePassword() {
+  //   var myBtn = document.getElementById("show"),
+  //       myInput = document.getElementById("myInput");
+
+  //       myBtn.onclick = function() {
+  //         'use strict';
+  //         if(this.textContent === "إظهار") {
+  //           myInput.setAttribute("type" , "text");
+  //           this.textContent = "إخفاء";
+  //         }else {
+  //           myInput.setAttribute("type" , "password");
+  //           this.textContent = "إظهار";
+  //         }
+  //       }
+  // }
+
+
+  function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            $('#imagePreview3').css('background-image', 'url('+e.target.result +')');
+            $('#imagePreview3').hide();
+            $('#imagePreview3').fadeIn(650);
         }
-  }
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+$("#imageUpload").change(function() {
+    readURL(this);
+});
 
 
-  function myFunction() {
-    document.getElementById("demo").innerHTML = "تم إضافة القسم بنجاح ";
-  }
+
+$('#file-upload').change(function() {
+  var filepath = this.value;
+  var m = filepath.match(/([^\/\\]+)$/);
+  var filename = m[1];
+  var filename0 = m[2];
+  
+var uploadText = document.querySelector('.uploadText');
+var createDiv = document.createElement("div");
+uploadText.appendChild(createDiv)
+  var att = document.createAttribute("class");     
+  att.value = "test";                           
+  createDiv.setAttributeNode(att);
+  createDiv.innerHTML =   filename;
+var closeButton = document.createElement('i');
+  var att1 = document.createAttribute("class");     
+  att1.value = "fa fa-close close-btn";                           
+  closeButton.setAttributeNode(att1);
+$(closeButton).appendTo($('.test'))
+$(closeButton).click(function () {
+    $(this).parent().remove();
+});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 

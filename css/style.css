@@ -1438,7 +1438,7 @@ p.security {
 .upl,
 .test {
   width: 100%;
-  cursor: pointer;
+
   display: inline-block;
   overflow: hidden;
   position: relative;

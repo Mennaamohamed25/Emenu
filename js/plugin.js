@@ -108,9 +108,9 @@ $(document).ready(function(){
   });
 
 
-  $(function() {
-    $( "#player-list" ).sortable();
-  });
+  // $(function() {
+  //   $( "#player-list" ).sortable();
+  // });
 
   $(document).ready(function() {
     $("#show_hide_password a").on('click', function(event) {
@@ -165,7 +165,6 @@ $(document).ready(function() {
 });
 
 
-
 function readURL(input) {
   if (input.files && input.files[0]) {
       var reader = new FileReader();
@@ -180,26 +179,41 @@ function readURL(input) {
 $("#imageUpload").change(function() {
   readURL(this);
 });
-function readURL(input) {
-  if (input.files && input.files[0]) {
-      var reader = new FileReader();
-      reader.onload = function(e) {
-          $('#imagePreview2').css('background-image', 'url('+e.target.result +')');
-          $('#imagePreview2').hide();
-          $('#imagePreview2').fadeIn(650);
-      }
-      reader.readAsDataURL(input.files[0]);
-  }
-}
-$("#imageUpload").change(function() {
-  readURL(this);
-});
+
+// function readURL(input) {
+//   if (input.files && input.files[0]) {
+//       var reader = new FileReader();
+//       reader.onload = function(e) {
+//           $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+//           $('#imagePreview').hide();
+//           $('#imagePreview').fadeIn(650);
+//       }
+//       reader.readAsDataURL(input.files[0]);
+//   }
+// }
+// $("#imageUpload").change(function() {
+//   readURL(this);
+// });
+// function readURL(input) {
+//   if (input.files && input.files[0]) {
+//       var reader = new FileReader();
+//       reader.onload = function(e) {
+//           $('#imagePreview2').css('background-image', 'url('+e.target.result +')');
+//           $('#imagePreview2').hide();
+//           $('#imagePreview2').fadeIn(650);
+//       }
+//       reader.readAsDataURL(input.files[0]);
+//   }
+// }
+// $("#imageUpload").change(function() {
+//   readURL(this);
+// });
 
 
 
-  // $(function() {
-  //   $( "#player-list-sub" ).sortable();
-  // });
+//   $(function() {
+//     $( "#player-list-sub" ).sortable();
+//   });
 
 
 
@@ -221,20 +235,20 @@ $("#imageUpload").change(function() {
   // }
 
 
-  function readURL(input) {
-    if (input.files && input.files[0]) {
-        var reader = new FileReader();
-        reader.onload = function(e) {
-            $('#imagePreview3').css('background-image', 'url('+e.target.result +')');
-            $('#imagePreview3').hide();
-            $('#imagePreview3').fadeIn(650);
-        }
-        reader.readAsDataURL(input.files[0]);
-    }
-}
-$("#imageUpload").change(function() {
-    readURL(this);
-});
+//   function readURL(input) {
+//     if (input.files && input.files[0]) {
+//         var reader = new FileReader();
+//         reader.onload = function(e) {
+//             $('#imagePreview3').css('background-image', 'url('+e.target.result +')');
+//             $('#imagePreview3').hide();
+//             $('#imagePreview3').fadeIn(650);
+//         }
+//         reader.readAsDataURL(input.files[0]);
+//     }
+// }
+// $("#imageUpload").change(function() {
+//     readURL(this);
+// });
 
 
 
